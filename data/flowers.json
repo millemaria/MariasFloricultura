@@ -1,0 +1,24 @@
+{ 
+  "flores": [
+    
+  {
+    "id": 1,
+    "nome": "Lírios do Campo",
+    "valor": 60.00,
+    "valorPromocional": 30.00,
+    "imagem": "assets/img/lirio.png",
+    "descricao": "Aqui vai a descrição das flores",
+    "categoria": "Promoção"
+    },
+    {
+      "id": 2,
+      "nome": "Arranjo de Lírios Rosas",
+      "valor": 180.00,
+      "valorPromocional": 150.00,
+      "imagem": "assets/img/arranjoLirioRosa.png",
+      "descricao": "Aqui vai a descrição das flores",
+      "categoria": "Promoção"
+    }
+  
+  ]
+}
