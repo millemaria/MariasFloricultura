@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/dab0ae2ff9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/modoDark.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <title>Document</title>
 </head>
@@ -16,35 +17,81 @@
     <div class="container">
 
         <header>
+            <div class="header-top">
 
-            <div class="logo-img">
+                <div class="logo-img">
 
-                <img src="assets/img/logoMarca.svg" alt="Logo Marca">
+                    <img src="assets/img/logoMarca.svg" alt="Logo Marca">
+
+                </div>
+
+                <div class="content-header">
+
+                    <div class="acessibilidade">
+
+                        <img src="assets/img/icon/bandeiraBrasil.svg" class="tradutor" alt="">
+                        <img src="assets/img/icon/bandeiraEUA.svg" class="tradutor" alt="">
+
+                        <div class="acessibilidade-visual">
+
+                            <button>A+</button>
+                            <button>A-</button>
+
+                        </div>
+
+                    </div>
+
+                    <div id="modo-dark" class="modo-light">
+                        <div class="light" id="darkLight">
+                            <i class="fa-solid fa-sun" id="modo-img" alt=""></i>
+                        </div>
+                    </div>
+
+                    <div class="login">
+                        <a href="#">
+                            <img src="assets/img/icon/login.svg" alt="">
+                        </a>
+                    </div>
+
+                </div>
 
             </div>
 
-            <div class="content-header">
+            <div class="banner">
+                <img src="assets/img/Rectangle 187.png" alt="">
+            </div>
 
-                <div class="acessibilidade">
+            <div class="nav">
 
-                    <img src="assets/img/icon/tradutor.svg" alt="">
+                <ul>
 
-                    <div class="acessibilidade-visual">
+                    <li class="nav-header">
+                        <a href="">
+                            Promoções
+                        </a>
+                    </li>
 
-                        <button>A+</button>
-                        <button>A-</button>
+                    <li class="nav-header">
+                        <a href="">
+                            Cestas
+                        </a>
+                    </li>
 
-                    </div>
+                    <li class="nav-header">Arranjos</li>
+                    <li class="nav-header">Buquês</li>
+                    <li class="nav-header">
+                        <div>
+                            <ul>
 
-                </div>
+                                <li><img src="assets/img/icon/lupa.svg" alt=""></i></li>
+                                <li><img src="assets/img/icon/cesta.svg" alt=""></i></li>
+                                <li><img src="assets/img/icon/coracao.svg" alt=""></i></li>
 
-                <div class="modo-dark">
-                    <div class="dark" id="darkLight">
-                        <i class="fa-solid fa-moon" id="modo-img" alt=""></i>
-                    </div>
-                </div>
+                            </ul>
+                        </div>
+                    </li>
 
-                <div class="login"></div>
+                </ul>
 
             </div>
 
@@ -52,7 +99,7 @@
 
     </div>
 
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/modoDark.js"></script>
 
 </body>
 
