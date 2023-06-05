@@ -8,5 +8,15 @@ async function teste() {
   return await products.flores
 }
 
-console.log(teste())
+const t = async () => {
+  const flores = await teste()
 
+
+  flores.map((e) => {
+    
+    console.log(e.nome + e.valor)
+
+  })
+}
+
+t()
