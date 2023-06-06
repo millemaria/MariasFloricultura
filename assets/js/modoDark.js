@@ -1,4 +1,5 @@
 const darkMode = document.querySelector('#modo-dark')
+const body = document.querySelector('body')
 
 darkMode.addEventListener('click', () => {
     const imgIcon = document.querySelector('#modo-img')
@@ -12,5 +13,7 @@ darkMode.addEventListener('click', () => {
 
     darkMode.classList.toggle('modo-light')
     darkMode.classList.toggle('modo-dark')
+
+    body.classList.toggle('bodyDark')
 
 })

@@ -50,6 +50,21 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 1.2em;
-    color: black;
+    color: #000000;
+}
 
+.bodyDark * {
+    transition: all .3s;
+}
+
+.bodyDark #iconLogin {
+    color: #1C1C1C;
+}
+
+.bodyDark .header-top {
+    background-color: #14426E;
+}
+
+.bodyDark .nav {
+    background-color: #14426E;
 }
