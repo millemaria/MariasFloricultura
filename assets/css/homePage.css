@@ -1,0 +1,90 @@
+main h1 {
+    font-weight: 400;
+    display: inline-block;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid;
+    width: 180px;
+}
+
+.promocao {
+    height: 503px;
+    background-color: #6BAAD7;
+    margin: 0 45px;
+    padding: 26px;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    justify-content: center;
+}
+
+.item-promocao {
+    height: 450px;
+    width: 394px;
+    border-radius: 5px;
+    padding: 3px;
+    position: relative;
+    background-color: #C48007;
+    border: 1px solid #C48007;
+}
+
+.imgPromocao img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.infoPromocao {
+    display: flex;
+    flex-direction: column;
+    padding: 0 22px;
+    gap: 20px;
+}
+
+.nomeProduto {
+    text-align: center;
+}
+
+.valorAntigo {
+    text-decoration: line-through;
+}
+
+.valorAtual {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.spanButton {
+    position: absolute;
+    right: 24px;
+    bottom: 30px;
+    color: white;
+    font-size: 28px;
+}
+
+.spanButton i {
+    cursor: pointer;
+    transition: all .4s;
+}
+.spanButton i:hover {
+    transform: rotateY(180deg);
+}
+
+.spanButton .fa-heart:hover {
+    color: red;
+}
+
+.anuncio {
+    margin-top: 103px;
+    margin-left: 45px;
+    height: 550px;
+    border: 1px solid;
+}
+
+.item-anuncio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-anuncio {
+    display: flex;
+    flex-direction: column;
+}

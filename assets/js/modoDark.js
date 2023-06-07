@@ -1,4 +1,4 @@
-const darkMode = document.querySelector('#modo-dark')
+const modoDark = () => {const darkMode = document.querySelector('#modo-dark')
 const body = document.querySelector('body')
 
 darkMode.addEventListener('click', () => {
@@ -16,4 +16,4 @@ darkMode.addEventListener('click', () => {
 
     body.classList.toggle('bodyDark')
 
-})
+})}

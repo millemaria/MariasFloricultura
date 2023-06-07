@@ -6,4 +6,5 @@ async function flowesAPI() {
   const fetching = await fetch(url)
   const response = await fetching.json()
   return await response.flores
+  
 }
