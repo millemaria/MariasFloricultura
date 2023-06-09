@@ -72,6 +72,7 @@
   height: 32px;
   border: 1px solid transparent;
   background-color: #edb106;
+  align-items: center;
 }
 
 .acessibilidade-visual button {
