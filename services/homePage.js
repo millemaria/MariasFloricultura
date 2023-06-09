@@ -1,4 +1,6 @@
 const promocaoArea = document.querySelector('.promocao')
+const anuncioArea = document.querySelector('.anuncio')
+
 
 const filtro = (produto, categoria) => {
     const secaoProd = produto.filter(flor => flor.categoria == categoria)
@@ -33,6 +35,40 @@ const promocao = (listaProdutos) => {
     
     promocaoArea.innerHTML = itemPromocao
 }
+
+const anuncio = (listaProdutos) => {
+    const secaoAnuncio = filtro(listaProdutos, 'Anúncio')
+
+    const itemAnuncio = secaoAnuncio.map((produto) => {
+        return `
+        <article class="item-anuncio">
+            <div class="img-anuncio">
+                <img src="${produto.imagem}" alt="${produto.nome}">
+            </div>
+            <div class="info-anuncio">
+                <h4 class="title-anuncio">${produto.nome}</h4>
+                <p>
+                ${produto.descricao}
+                </p>
+
+                <div class="info-anuncio2">
+                    <p>R$ ${produto.valor.toFixed(2).replace('.', ',')}</p>
+                    <div class="qtd">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                    </div>
+                    <button id="btn-anuncio-compra">Comprar</button>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                </div>
+            </div>
+        </article>
+        `
+    })
+
+    anuncioArea.innerHTML = itemAnuncio
+}
+
 
 (async () => {
 

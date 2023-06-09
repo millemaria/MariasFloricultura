@@ -54,6 +54,10 @@
     color: #000000;
 }
 
+.bodyDark {
+    background-color: #1E1E1E;
+}
+
 .bodyDark * {
     transition: all .3s;
 }
@@ -70,3 +74,15 @@
     background-color: #14426E;
 }
 
+.bodyDark .title-anuncio {
+    color: rgba(237, 177, 6, 0.8);
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.45);
+}
+
+.bodyDark main h1 {
+    color: #fff;
+}
+
+.bodyDark .anuncio p {
+    color: #fff;
+}
