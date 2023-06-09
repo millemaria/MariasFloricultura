@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/header.css">
+    <script src="https://kit.fontawesome.com/dab0ae2ff9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/css/header.css">
     <link rel="stylesheet" href="/assets/css/normalize.css">
     <link rel="stylesheet" href="/assets/css/modoDark.css">
     <link rel="stylesheet" href="/assets/css/styleuser.css">
@@ -48,7 +49,7 @@
                     </div>
 
                     <div class="login">
-                        <a href="#">
+                        <a href="/assets/html/login.html">
                             <i class="fa-solid fa-user" id="iconLogin"></i>
                         </a>
                     </div>
@@ -118,36 +119,47 @@
             </div>
 
         </header>
+    </div>
+
+    <div class="form">
 
         <div class="main">
-            <input type="checkbox" id="chk" aria-hidden="true">
-            <div class="signup">
-                <form>
-                    <label for="chk" aria-hidden="true">Criar Conta</label>
-                    <input type="text" name="txt" placeholder="Nome" required>
-                    <input type="email" name="email" placeholder="Email" required>
-                    <input type="password" name="pswd" placeholder="Senha" required>
-                    <input type="password" placeholder="Confirme Senha" id="confirm_password" required>
-                    <button>Criar</button>
-                </form>
-            </div>
-            <div class="login">
-                <form>
-                    <label class="login-txt" for="chk" aria-hidden="true">login</label>
-                    <h1 class="titulo">Bem Vindo <br>de volta</h1>
-                    <p class="subtitulo">Continue se conectando com a gente faça seu login</p>
-                    <input type="email" name="email" placeholder="Email" required>
-                    <input type="password" name="pswd" placeholder="Senha" required>
-                    <button>Entrar</button>
-                </form>
-            </div>
-            <div>
-                <span>
-                    Or Sign Up Using
-                </span>
+            <div class="content">
+                <input type="checkbox" id="chk" aria-hidden="true">
+                <div class="signup">
+                    <form>
+                        <label for="chk" aria-hidden="true">Criar Conta</label>
+                        <input type="text" name="txt" placeholder="Nome" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="password" name="pswd" placeholder="Senha" required>
+                        <input type="password" placeholder="Confirme Senha" id="confirm_password" required>
+                        <button class="btn-user">Criar</button>
+                    </form>
+                </div>
+                <div class="login-user">
+                    <form>
+                        <label class="login-txt" for="chk" aria-hidden="true">login</label>
+                        <h1 class="titulo">Bem Vindo <br>de volta</h1>
+                        <p class="subtitulo">Continue se conectando com a gente faça seu login</p>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="password" name="pswd" placeholder="Senha" required>
+                        <button class="btn-user">Entrar</button>
+                    </form>
+                </div>
+                <div>
+                    <span>
+                        Or Sign Up Using
+                    </span>
+                </div>
             </div>
         </div>
-
+    </div>
+    
+        <script src="/assets/js/modoDark.js"></script>
+        <script src="/assets/js/acessibilidadeVisual.js"></script>
+        <script src="/assets/js/scripts.js"></script>
+        <script src="/services/api.js"></script>
+        <script src="/services/homePage.js"></script>
 
 </body>
 

@@ -1,5 +1,15 @@
+.content{
+    width: 100%;
+    height: 100%;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
 .main {
-    margin: 170px 200px 150px;
+    margin: 30px 0 0;
     width: 400px;
     height: 550px;
     overflow: hidden;
@@ -8,7 +18,6 @@
     border-radius: 10px;
     box-shadow: 5px 20px 50px #000;
     font-family: 'Jost', sans-serif;
-
 }
 
 #chk {
@@ -40,18 +49,18 @@ label {
 
 input {
     width: 60%;
-    height: 20px;
+    height: 25px;
     background: #e0dede;
     justify-content: center;
     display: flex;
     margin: 20px auto;
-    padding: 10px;
+    padding: 20px;
     border: none;
     outline: none;
     border-radius: 5px;
 }
 
-button {
+.btn-user {
     width: 60%;
     height: 40px;
     margin: 10px auto;
@@ -69,16 +78,16 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.btn-user:hover {
     background: #14426E;
 }
 
-.login {
+.login-user {
     display: flex;
     height: 480px;
     background: #eee;
     border-radius: 60% / 10%;
-    transform: translateY(-180px);
+    transform: translateY(-450px);
     transition: .8s ease-in-out;
     justify-content: center;
 }
@@ -105,16 +114,16 @@ button:hover {
 
 }
 
-.login label {
+.login-user label {
     color: #6BAAD7;
     transform: scale(.6);
 }
 
-#chk:checked~.login {
-    transform: translateY(-510px);
+#chk:checked~.login-user {
+    transform: translateY(-180px);
 }
 
-#chk:checked~.login label {
+#chk:checked~.login-user label {
     transform: scale(1);
 }
 
