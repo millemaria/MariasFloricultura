@@ -1,0 +1,24 @@
+#Dados{
+
+}
+/* .dados{
+    display: flex;
+} */
+.dados-salvos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 550px;
+    width: 582px;
+    background-color: red;
+    margin-left: 50px;
+}
+input {
+    font-size: 10px;
+    text-align: center;
+    padding: 1rem;
+    /* background-color: #c4cddf; */
+    border-radius: 1rem;
+    font-family: "Open Sans", sans-serif;
+
+}
