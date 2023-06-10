@@ -83,7 +83,7 @@
   cursor: pointer;
 }
 
-.login i {
+.login #iconLogin {
   color: white;
   font-size: 30px;
 }

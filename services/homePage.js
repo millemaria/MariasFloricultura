@@ -1,5 +1,6 @@
 const promocaoArea = document.querySelector('.promocao')
 const anuncioArea = document.querySelector('.anuncio')
+const cestaArea = document.querySelector('.cesta')
 
 
 const filtro = (produto, categoria) => {
@@ -47,16 +48,16 @@ const anuncio = (listaProdutos) => {
             </div>
             <div class="info-anuncio">
                 <h4 class="title-anuncio">${produto.nome}</h4>
-                <p>
+                <p class="descricao-anuncio">
                 ${produto.descricao}
                 </p>
 
                 <div class="info-anuncio2">
                     <p>R$ ${produto.valor.toFixed(2).replace('.', ',')}</p>
                     <div class="qtd">
-                        <button>-</button>
-                        <span>1</span>
-                        <button>+</button>
+                    <button>+</button>
+                    <span>1</span>
+                    <button>-</button>
                     </div>
                     <button id="btn-anuncio-compra">Comprar</button>
                     <i class="fa-solid fa-basket-shopping"></i>
@@ -69,6 +70,38 @@ const anuncio = (listaProdutos) => {
     anuncioArea.innerHTML = itemAnuncio
 }
 
+const cesta = (listaProdutos) => {
+    const secCesta = filtro(listaProdutos, 'Cestas')
+    
+    const itemCesta = secCesta.map((produto) => {
+        return `
+        <article class="item-cesta">
+            <div class="img-cesta">
+                <img src="/assets/img/img flores/CestadePresente.png" alt="">
+            </div>
+            <div class="info-cesta">
+                <h4>Cesta de Presente Premium Luxury</h4>
+                <p>Este disputado Vinho é produzido para o mercado interno argentino, onde é cultuado e se
+                    esgota rapidamente, alcançando altíssimos preços em safras antigas. Grande clássico da
+                    América do Sul.</p>
+                <span id="valor-produto-cesta">R$ ${produto.valor.toFixed(2).replace('.', ',')}</span>
+                <div class="info-cesta2">
+                    <div class="qtd">
+                        <button>+</button>
+                        <span>1</span>
+                        <button>-</button>
+                    </div>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                </div>
+            </div>
+        </article>
+        `
+    }).join('')
+
+    cestaArea.innerHTML = itemCesta
+
+}
+
 
 (async () => {
 
@@ -76,5 +109,6 @@ const anuncio = (listaProdutos) => {
     setTimeout(() => {
         promocao(flores)
         anuncio(flores)
+        cesta(flores)
     }, 1000)
 })()
