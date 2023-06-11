@@ -123,23 +123,94 @@
             </div>
 
         </header>
-<section class="dados">
-    <h1 id="Dados">Dados</h1>
-    <div class="dados-salvos">
-        <div>
-            <img style="border-radius: 100%; height: 100px; width: 100px" id="img" src="/assets/img/icon/Ellipse 15.png" height="500">
-        </div>
-        <input id="input" type="file">
-    </div>
-</section>
+        <div class="dadoss">
+            <h1 id="Dados">Dados</h1>
+            <div class="dados-salvos">
+                <div>
+                    <img id="img-user" src="/assets/img/icon/Ellipse 15.png">
+                </div>
 
+                <input id="foto" type="file">
+                <div class="nome-user">
+                    <h2>Francisco Miguel</h2>
+                </div>
+
+                <div class="email-central-user">
+                    <h5 class="email-nome">Email:</h5>
+                    <div>
+                        <p class="email-user">Francisco.miguel01@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="cep-central-user">
+                    <h5 class="cep-nome">CEP:</h5>
+                    <div>
+                        <p class="cep-user">51345040</p>
+                    </div>
+                </div>
+
+                <div class="num-central-user">
+                    <h5 class="num-nome">N°</h5>
+                    <div>
+                        <p class="num-user">462</p>
+                    </div>
+                </div>
+
+                <div class="tel-central-user">
+                    <h5 class="tel-nome">Telefone:</h5>
+                    <div>
+                        <p class="tel-user">(81)99999.9999</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <div class="Editar-dados">
+            <h2 class="title-dados">Dados Alterados</h2>
+            <form>
+                <div>
+                <label for="nome">Editar Nome:</label>
+                <input type="text" id="nome" name="usuario_nome" />
+            </div>
+            <div>
+                <label for="email">Editar E-mail:</label>
+                <input type="email" id="email" name="usuario_email" />
+            </div>
+            <div>
+                <label for="email">Confirmar E-mail:</label>
+                <input type="email" id="email" name="usuario_email" />
+            </div>
+            <div>
+                <label for="CEP">Editar CEP:</label>
+                <input name="CEP" id="CEP" required pattern="\d{5}-\d{3}" />
+            </div>
+            <div>
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+            </div>
+            <div>
+                <label for="pass">Senha:</label>
+                <input type="password" id="pass" name="password" minlength="8" required>
+            </div>
+            <div>
+                <label for="pass">Confirme sua Senha:</label>
+                <input type="password" id="pass" name="password"
+                minlength="8" required>
+            </div>
+            <div class="button-dados">
+                <button class="botao-dados" type="submit">Salvar Alterações</button>
+            </div>
+        </form>
     </div>
+        
+    </div>
+    <script src="/assets/js/adicionarImagem.js"></script>
     <script src="/assets/js/modoDark.js"></script>
     <script src="/assets/js/acessibilidadeVisual.js"></script>
     <script src="/assets/js/scripts.js"></script>
     <script src="/services/api.js"></script>
     <script src="/services/homePage.js"></script>
-    <script src="/assets/js/adicionarImagem.js" ></script>
 </body>
 
 </html>
