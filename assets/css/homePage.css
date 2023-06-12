@@ -64,7 +64,7 @@ main h1 {
     font-size: 28px;
 }
 
- .desejo{
+.desejo {
     cursor: pointer;
     transition: all .4s;
 }
@@ -195,7 +195,7 @@ main h1 {
     padding: 26px;
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 50px;
 }
 
 .item-cesta {
@@ -209,6 +209,7 @@ main h1 {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    margin-right: 150px;
 
 }
 
@@ -291,7 +292,7 @@ main h1 {
 }
 
 
-.tropical {
+.tropical, .tropical2 {
     margin: 0 45px;
     padding: 26px;
 
@@ -301,6 +302,7 @@ main h1 {
     gap: 50px;
     background-color: rgba(107, 170, 215, .5);
     border-radius: 4px;
+    position: relative;
 }
 
 .item-tropical {
@@ -365,5 +367,19 @@ main h1 {
 
 .chatbot img {
     width: 120px;
+    cursor: pointer;
+}
+
+#saiba-mais {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background: #EDB106;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    right: 105px;
+    bottom: 5px;
     cursor: pointer;
 }
