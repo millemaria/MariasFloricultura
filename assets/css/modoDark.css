@@ -70,6 +70,23 @@
     background-color: #14426E;
 }
 
-/* .bodyDark {
-    background-color: black;
-} */
+.bodyDark {
+    background-color: #1E1E1E;
+}
+
+.bodyDark h1 {
+    color: #fff;
+}
+
+.bodyDark .anuncio h4 {
+    color: rgba(237, 177, 6, 0.8);
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.45);
+}
+
+.bodyDark .anuncio p {
+    color: #FFFFFF;
+}
+
+.bodyDark .item-cesta {
+    background: #D87500;
+}

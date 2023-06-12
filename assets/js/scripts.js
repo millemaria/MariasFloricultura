@@ -1,4 +1,6 @@
 
+
+
 (() => {
     modoDark()
     acessibilidadeVisual()
