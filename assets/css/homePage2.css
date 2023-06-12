@@ -1,0 +1,254 @@
+main h1 {
+    font-weight: 400;
+    display: inline-block;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid;
+    width: 320px;
+}
+
+/* Seção Promoção */
+
+.desejo {
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.desejo:hover {
+    transform: rotateY(180deg);
+    color: red;
+}
+
+.tropical2 {
+    margin: 0 45px;
+    padding: 26px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    gap: 50px;
+    background-color: rgba(107, 170, 215, .5);
+    border-radius: 4px;
+    position: relative;
+}
+
+.item-tropical {
+    width: 290px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: rgba(237, 177, 6, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    position: relative;
+}
+
+.info-tropical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+.info-tropical h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.info-tropical p {
+    text-align: center;
+    font-size: 17px;
+}
+
+.info-tropical .valor-tropical {
+    width: 100%;
+    padding: 0 0 0 10px;
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+
+.info-tropical .btn-span {
+    color: #fff;
+    font-size: 28px;
+    position: absolute;
+    width: auto;
+
+    right: 10px;
+    bottom: 1px;
+}
+
+.buques {
+    margin: 0 45px;
+    padding: 26px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    gap: 50px;
+    background-color: rgba(107, 170, 215, .5);
+    border-radius: 4px;
+    position: relative;
+}
+
+.item-buque {
+    width: 290px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: rgba(237, 177, 6, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    position: relative;
+}
+
+.info-buque {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+.info-buque h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.info-buque p {
+    text-align: center;
+    font-size: 17px;
+}
+
+.info-buque .valor-buque {
+    width: 100%;
+    padding: 0 0 0 10px;
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+
+.info-buque .btn-span {
+    color: #fff;
+    font-size: 28px;
+    position: absolute;
+    width: auto;
+
+    right: 10px;
+    bottom: 1px;
+}
+
+.box {
+    margin: 0 45px;
+    padding: 26px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    gap: 50px;
+    background-color: rgba(107, 170, 215, .5);
+    border-radius: 4px;
+    position: relative;
+}
+
+.item-box {
+    width: 290px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: rgba(237, 177, 6, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    position: relative;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+.info-box h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.info-box p {
+    text-align: center;
+    font-size: 17px;
+}
+
+.info-box .valor-box {
+    width: 100%;
+    padding: 0 0 0 10px;
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+
+.info-box .btn-span {
+    color: #fff;
+    font-size: 28px;
+    position: absolute;
+    width: auto;
+
+    right: 10px;
+    bottom: 1px;
+}
+
+.chatbot {
+    position: fixed;
+    left: 20px;
+    top: 460px;
+}
+
+.chatbot img {
+    width: 120px;
+    cursor: pointer;
+}
+
+#saiba-mais {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background: #EDB106;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    right: 105px;
+    bottom: 5px;
+    cursor: pointer;
+}
+
+.banner {
+    margin: 200px 0;
+}
+
+.banner img {
+    width: 100%;
+    height: 386px;
+}

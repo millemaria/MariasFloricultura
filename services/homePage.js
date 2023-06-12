@@ -2,6 +2,7 @@ const promocaoArea = document.querySelector('.promocao')
 const anuncioArea = document.querySelector('.anuncio')
 const cestaArea = document.querySelector('.cesta')
 const tropicalArea = document.querySelector('.tropical')
+const tropicalArea2 = document.querySelector('.tropical2')
 
 
 const filtro = (produto, categoria) => {
@@ -104,7 +105,6 @@ const cesta = (listaProdutos) => {
     }).join('')
 
     cestaArea.innerHTML = itemCesta
-
 }
 
 const tropical = (listaProdutos) => {
@@ -134,6 +134,90 @@ const tropical = (listaProdutos) => {
 
     tropicalArea.innerHTML = itemTropical
 
+
+
+}
+
+const tropicalMetade = (listaProdutos) => {
+
+    const secaoTropical = filtro(listaProdutos, 'Catálogo Tropical')
+
+    let item = ''
+
+    secaoTropical.forEach((produto, index) => {
+        index <= 7 ?
+            item += `        
+            <article class="item-tropical">
+                <div class="img-tropical">
+                    <img src="${produto.imagem}" alt="${produto.nome}">
+                </div>
+                <div class="info-tropical">
+                    <a href="assets/html/itemPage.html?id=${produto.id}">
+                        <h4>${produto.nome}</h4>
+                    </a>
+                    <p>${produto.descricao}</p>
+                    <span class="valor-tropical">R$ ${produto.valor.toFixed(2).replace('.', ',')}</span>
+                    <span class="btn-span">
+                        <i class="fa-solid fa-heart desejo"></i>
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    </div>
+            </article>
+                ` :
+        ''
+    });
+
+    tropicalArea.innerHTML = item
+
+    const botao = `
+    <a href="assets/html/index2.html">
+    <button id="saiba-mais">Saiba Mais</button>
+    </a>
+    `
+
+    tropicalArea.innerHTML += botao
+
+}
+
+const tropicalOutraMetade = (listaProdutos) => {
+
+    const secaoTropical = filtro(listaProdutos, 'Catálogo Tropical')
+
+    let item = ''
+
+    secaoTropical.forEach((produto, index) => {
+        index <= 7 ?
+            item += `        
+            <article class="item-tropical">
+                <div class="img-tropical">
+                    <img src="${produto.imagem}" alt="${produto.nome}">
+                </div>
+                <div class="info-tropical">
+                    <a href="assets/html/itemPage.html?id=${produto.id}">
+                        <h4>${produto.nome}</h4>
+                    </a>
+                    <p>${produto.descricao}</p>
+                    <span class="valor-tropical">R$ ${produto.valor.toFixed(2).replace('.', ',')}</span>
+                    <span class="btn-span">
+                        <i class="fa-solid fa-heart desejo"></i>
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    </div>
+            </article>
+                ` :
+        ''
+    });
+
+    tropicalArea2.innerHTML = item
+
+    const botao = `
+    <a href="assets/html/index2.html">
+    <button id="saiba-mais">Saiba Mais</button>
+    </a>
+    `
+
+    tropicalArea2.innerHTML += botao
+
 }
 
 // const adicionarAoCarrinho = () => {
@@ -152,6 +236,6 @@ const tropical = (listaProdutos) => {
         promocao(flores)
         anuncio(flores)
         cesta(flores)
-        tropical(flores)
+        tropicalMetade(flores)
     }, 1000)
 })()
