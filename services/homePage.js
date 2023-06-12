@@ -82,7 +82,7 @@ const cesta = (listaProdutos) => {
         return `
         <article class="item-cesta">
             <div class="img-cesta">
-                <img src="${produto.imagem}" alt="">
+                <img src="${produto.imagem}" alt="${produto.nome}">
             </div>
             <div class="info-cesta">
                 <a href="assets/html/itemPage.html?id=${produto.id}">
@@ -115,7 +115,7 @@ const tropical = (listaProdutos) => {
         return `
         <article class="item-tropical">
             <div class="img-tropical">
-                <img src="${produto.imagem}" alt="">
+                <img src="${produto.imagem}" alt="${produto.nome}">
             </div>
             <div class="info-tropical">
                 <a href="assets/html/itemPage.html?id=${produto.id}">
