@@ -3,14 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/dab0ae2ff9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/header2.css">
-    <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/modoDark.css">
-    <link rel="stylesheet" href="../css/styleadm.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/perfilADM.css">
 
 </head>
 
@@ -66,30 +65,30 @@
                 <ul>
     
                     <li class="nav-header">
-                        <a href="../../index.html#promocao">
+                        <a href="../../index-inglês.html#promocao">
                             Promotions
                         </a>
                     </li>
     
                     <li class="nav-header">
-                        <a href="../../index.html#cestas">
+                        <a href="../../index-inglês.html#cestas">
                             Baskets
                         </a>
                     </li>
     
                     <li class="nav-header">
-                        <a href="../../index.html#catalogoTropical">
+                        <a href="../../index-inglês.html#catalogoTropical">
                             Catalog
                         </a>
                     </li>
     
                     <li class="nav-header">
-                        <a href="./index2.html#buques">
+                        <a href="./index2- Inglês.html#buques">
                             Bouquets
                         </a>
                     </li>
                     <li class="nav-header">
-                        <a href="./index2.html#box">
+                        <a href="./index2- Inglês.html#box">
                             Box's
                         </a>
                     </li>
@@ -110,7 +109,7 @@
                                 </li>
     
                                 <li>
-                                    <a href="../html/ListadeDesejos.html">
+                                    <a href="../html/listadedesejos-inglês.html">
                                         <i class="fa-solid fa-heart"></i>
                                     </a>
                                 </li>
@@ -126,39 +125,72 @@
         </header>
     </div>
 
-    <div class="form">
+    <div class="barraADM">
+        <img src="../img/icon/_76fad591-23d5-4778-be63-48e5a6b24cb4.jfif" alt="">
+        <h1>MiniMestre</h1>
+        <a class    ="active" href="">EDIT PROFILE</a>
+        <a href="">MESSAGES</a>
+        <a href="">BUDGET</a>
+        <a href="">PRODUCT</a>
+    </div>
 
-        <div class="main">
-            <div class="content">
-                <input type="checkbox" id="chk" aria-hidden="true">
-                <div class="signup">
-                    <form>
-                        <label for="chk" aria-hidden="true">ADM</label>
-                        <input type="email" name="email" placeholder="Email" required>
-                        <input type="password" name="pswd" placeholder="Password" required>
-                        <button class="btn-user">Login</button>
-                    </form>
-                </div>
-                <div class="login-user">
-                    <div>
-                        <img src="../img/icon/iconAdm.svg" id="iconAdm" alt="Icon Admin">
-                    </div>
-                </div>
-                <div>
-                    <span>
-                        Or Sign Up Using
-                    </span>
-                </div>
+    <div class="areaADM">
+
+        <h1>Edit Profile</h1>
+
+        <div class="infoADM">
+            <div class="info-esquerda">
+                <img src="/assets/img/Ellipse 21.png" alt="" id="img-user" style="height: 200px; width: 200px; border-radius: 100%;">
+                <p>Edit image</p>
+                <input id="foto" type="file">
+            </div>
+            <div class="info-direita">
+                <h3>MiniMestre</h3>
+                <label>
+                     Full Name: 
+                    <input type="text" placeholder="Jair Inácio Messias da Silva">
+                </label>
+                <label>
+                    Email: 
+                    <input type="email" placeholder="example@ex.org">
+                </label>
+                <label>
+                    Telephone: 
+                    <input type="tel" placeholder="(00) 12345-6789">
+                </label>
             </div>
         </div>
+
+        <h1>Administrator</h1>
+
+        <section class="admns">
+            
+            <article class="admins">
+                <img src="assets/img/Ellipse 22.png" alt="">
+                <h4>Ana Luísa</h4>
+            </article>
+            
+            <article class="admins">
+                <img src="assets/img/Ellipse 23.png" alt="">
+                <h4>Mariazinha</h4>
+            </article>
+            
+            <article class="admins">
+                <img src="assets/img/Ellipse 24.png" alt="">
+                <h4>Karolynda</h4>
+            </article>
+
+        </section>
+
     </div>
+
 
     <script src="../js/modoDark.js"></script>
     <script src="../js/acessibilidadeVisual.js"></script>
     <script src="../js/scripts.js"></script>
     <script src="../../services/api.js"></script>
+    <script src="../js/adicionarImagem.js"></script>
     <!-- <script src="../../services/homePage.js"></script> -->
-
 </body>
 
 </html>

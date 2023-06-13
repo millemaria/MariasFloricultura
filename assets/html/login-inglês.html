@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../css/header2.css">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/modoDark.css">
-    <link rel="stylesheet" href="../css/styleadm.css">
+    <link rel="stylesheet" href="../css/styleuser.css">
 
 </head>
 
@@ -133,32 +133,38 @@
                 <input type="checkbox" id="chk" aria-hidden="true">
                 <div class="signup">
                     <form>
-                        <label for="chk" aria-hidden="true">ADM</label>
+                        <label for="chk" aria-hidden="true">Create Account</label>
+                        <input type="text" name="txt" placeholder="Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="password" name="pswd" placeholder="Password" required>
+                        <input type="password" placeholder="Confirm Password" id="confirm_password" required>
+                        <button class="btn-user">Confirm</button>
+                    </form>
+                </div>
+                <div class="login-user">
+                    <form>
+                        <label class="login-txt" for="chk" aria-hidden="true"><Label></Label>ogin</label>
+                        <h1 class="titulo">Welcome Back!!</h1>
+                        <p class="subtitulo">Keep conecting with us login</p>
                         <input type="email" name="email" placeholder="Email" required>
                         <input type="password" name="pswd" placeholder="Password" required>
                         <button class="btn-user">Login</button>
                     </form>
                 </div>
-                <div class="login-user">
-                    <div>
-                        <img src="../img/icon/iconAdm.svg" id="iconAdm" alt="Icon Admin">
-                    </div>
-                </div>
                 <div>
                     <span>
                         Or Sign Up Using
-                    </span>
+                    </span> 
                 </div>
             </div>
         </div>
     </div>
-
+    
     <script src="../js/modoDark.js"></script>
     <script src="../js/acessibilidadeVisual.js"></script>
     <script src="../js/scripts.js"></script>
     <script src="../../services/api.js"></script>
     <!-- <script src="../../services/homePage.js"></script> -->
-
 </body>
 
 </html>

@@ -7,15 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/dab0ae2ff9.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/header2.css">
+    <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/modoDark.css">
-    <link rel="stylesheet" href="../css/styleadm.css">
-
+    <link rel="stylesheet" href="../css/DadosUser.css">
 </head>
 
 <body>
     <div class="container">
+
         <header>
             <div class="header-top">
     
@@ -124,41 +124,94 @@
             </div>
     
         </header>
-    </div>
-
-    <div class="form">
-
-        <div class="main">
-            <div class="content">
-                <input type="checkbox" id="chk" aria-hidden="true">
-                <div class="signup">
-                    <form>
-                        <label for="chk" aria-hidden="true">ADM</label>
-                        <input type="email" name="email" placeholder="Email" required>
-                        <input type="password" name="pswd" placeholder="Password" required>
-                        <button class="btn-user">Login</button>
-                    </form>
+        <div class="dadoss">
+            <h1 id="Dados">Dados</h1>
+            <div class="dados-salvos">
+                <div>
+                    <img id="img-user" src="assets/img/icon/Ellipse 15.png">
                 </div>
-                <div class="login-user">
+
+                <input id="foto" type="file">
+                <div class="nome-user">
+                    <h2>Francisco Miguel</h2>
+                </div>
+
+                <div class="email-central-user">
+                    <h5 class="email-nome">Email:</h5>
                     <div>
-                        <img src="../img/icon/iconAdm.svg" id="iconAdm" alt="Icon Admin">
+                        <p class="email-user">Francisco.miguel01@gmail.com</p>
                     </div>
                 </div>
-                <div>
-                    <span>
-                        Or Sign Up Using
-                    </span>
+
+                <div class="cep-central-user">
+                    <h5 class="cep-nome">Zip Cope:</h5>
+                    <div>
+                        <p class="cep-user">51345040</p>
+                    </div>
+                </div>
+
+                <div class="num-central-user">
+                    <h5 class="num-nome">N°</h5>
+                    <div>
+                        <p class="num-user">462</p>
+                    </div>
+                </div>
+
+                <div class="tel-central-user">
+                    <h5 class="tel-nome">Teleph  one:</h5>
+                    <div>
+                        <p class="tel-user">(81)99999.9999</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+        </section>
 
+        <div class="Editar-dados">
+            <h2 class="title-dados">Changed Data</h2>
+            <form>
+                <div>
+                <label for="nome">Edit Name:</label>
+                <input type="text" id="nome" name="usuario_nome" />
+            </div>
+            <div>
+                <label for="email">Edit E-mail:</label>
+                <input type="email" id="email" name="usuario_email" />
+            </div>
+            <div>
+                <label for="email">Confirm E-mail:</label>
+                <input type="email" id="email" name="usuario_email" />
+            </div>
+            <div>
+                <label for="CEP">Edit ZipCode:</label>
+                <input name="CEP" id="CEP" required pattern="\d{5}-\d{3}" />
+            </div>
+            <div>
+                <label for="telefone">Telephone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+            </div>
+            <div>
+                <label for="pass">Password:</label>
+                <input type="password" id="pass" name="password" minlength="8" required>
+            </div>
+            <div>
+                <label for="pass">Confirm Password:</label>
+                <input type="password" id="pass" name="password"
+                minlength="8" required>
+            </div>
+            <div class="button-dados">
+                <button class="botao-dados" type="submit">Save Changes</button>
+            </div>
+        </form>
+    </div>
+        
+    </div>
+    <script src="../js/adicionarImagem.js"></script>
     <script src="../js/modoDark.js"></script>
     <script src="../js/acessibilidadeVisual.js"></script>
     <script src="../js/scripts.js"></script>
     <script src="../../services/api.js"></script>
-    <!-- <script src="../../services/homePage.js"></script> -->
-
+    <script src="../../services/homePage.js"></script>
 </body>
 
 </html>
