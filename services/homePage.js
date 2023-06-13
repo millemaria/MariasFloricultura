@@ -220,14 +220,23 @@ const tropicalOutraMetade = (listaProdutos) => {
 
 }
 
-// const adicionarAoCarrinho = () => {
-//     const teste = document.querySelectorAll('.desejo')
-//     teste.forEach(e => {
-//         e.addEventListener('click', () => {
-//             alert("Item adicionado a lista de desejos!")
-//         })
-//     })
-// }
+const adicionarAListaDeDesejos = () => {
+    const teste = document.querySelectorAll('.desejo')
+    teste.forEach(e => {
+        e.addEventListener('click', () => {
+            alert("Item adicionado a lista de desejos!")
+        })
+    })
+}
+
+const adicionarAoCarrinho = () => {
+    const teste = document.querySelectorAll('.carrinho')
+    teste.forEach(e => {
+        e.addEventListener('click', () => {
+            alert("Item adicionado ao carrinho!")
+        })
+    })
+}
 
 (async () => {
 
@@ -237,5 +246,7 @@ const tropicalOutraMetade = (listaProdutos) => {
         anuncio(flores)
         cesta(flores)
         tropicalMetade(flores)
+        adicionarAListaDeDesejos()
+        adicionarAoCarrinho()
     }, 1000)
 })()

@@ -22,14 +22,14 @@ const tropicalOutraMetade = (listaProdutos) => {
                     <img src="/${produto.imagem}" alt="${produto.nome}">
                 </div>
                 <div class="info-tropical">
-                    <a href="assets/html/itemPage.html?id=${produto.id}">
+                    <a href="./itemPage.html?id=${produto.id}">
                         <h4>${produto.nome}</h4>
                     </a>
                     <p>${produto.descricao}</p>
                     <span class="valor-tropical">R$ ${produto.valor.toFixed(2).replace('.', ',')}</span>
                     <span class="btn-span">
                         <i class="fa-solid fa-heart desejo"></i>
-                        <i class="fa-solid fa-basket-shopping"></i>
+                        <i class="fa-solid fa-basket-shopping carrinho"></i>
                     </span>
                     </div>
             </article>
@@ -51,14 +51,14 @@ const buque = (listaProdutos) => {
                 <img src="/${produto.imagem}" alt="${produto.nome}">
             </div>
             <div class="info-buque">
-                <a href="assets/html/itemPage.html?id=${produto.id}">
+                <a href="./itemPage.html?id=${produto.id}">
                     <h4>${produto.nome}</h4>
                 </a>
                 <p>${produto.descricao}</p>
                 <span class="valor-buque">R$ ${produto.valor.toFixed(2).replace('.', ',')}</span>
                 <span class="btn-span">
                     <i class="fa-solid fa-heart desejo"></i>
-                    <i class="fa-solid fa-basket-shopping"></i>
+                    <i class="fa-solid fa-basket-shopping carrinho"></i>
                 </span>
                 </div>
         </article>
@@ -78,14 +78,14 @@ const box = (listaProdutos) => {
                 <img src="/${produto.imagem}" alt="${produto.nome}">
             </div>
             <div class="info-box">
-                <a href="assets/html/itemPage.html?id=${produto.id}">
+                <a href="./itemPage.html?id=${produto.id}">
                     <h4>${produto.nome}</h4>
                 </a>
                 <p>${produto.descricao}</p>
                 <span class="valor-box">R$ ${produto.valor.toFixed(2).replace('.', ',')}</span>
                 <span class="btn-span">
                     <i class="fa-solid fa-heart desejo"></i>
-                    <i class="fa-solid fa-basket-shopping"></i>
+                    <i class="fa-solid fa-basket-shopping carrinho"></i>
                 </span>
                 </div>
         </article>
@@ -95,14 +95,23 @@ const box = (listaProdutos) => {
     boxArea.innerHTML = itembox
 }
 
-// const adicionarAoCarrinho = () => {
-//     const teste = document.querySelectorAll('.desejo')
-//     teste.forEach(e => {
-//         e.addEventListener('click', () => {
-//             alert("Item adicionado a lista de desejos!")
-//         })
-//     })
-// }
+const adicionarAListaDeDesejos = () => {
+    const teste = document.querySelectorAll('.desejo')
+    teste.forEach(e => {
+        e.addEventListener('click', () => {
+            alert("Item adicionado a lista de desejos!")
+        })
+    })
+}
+
+const adicionarAoCarrinho = () => {
+    const teste = document.querySelectorAll('.carrinho')
+    teste.forEach(e => {
+        e.addEventListener('click', () => {
+            alert("Item adicionado ao carrinho!")
+        })
+    })
+}
 
 (async () => {
 
@@ -111,5 +120,7 @@ const box = (listaProdutos) => {
         tropicalOutraMetade(flores)
         buque(flores)
         box(flores)
+        adicionarAListaDeDesejos()
+        adicionarAoCarrinho()
     }, 1000)
 })()
