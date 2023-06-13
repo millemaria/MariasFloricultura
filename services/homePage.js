@@ -17,7 +17,7 @@ const promocao = (listaProdutos) => {
         return `
         <article class="item-promocao">
             <div class="imgPromocao">
-                <img src="${produto.imagem}" alt="${produto.nome}">
+                <img src="assets/${produto.imagem}" alt="${produto.nome}">
             </div>
             <div class="infoPromocao">
                 <a href="assets/html/itemPage.html?id=${produto.id}">
@@ -47,7 +47,7 @@ const anuncio = (listaProdutos) => {
         return `
             <article class="item-anuncio">
                 <div class="img-anuncio">
-                    <img src="${produto.imagem}" alt="${produto.nome}">
+                    <img src="assets/${produto.imagem}" alt="${produto.nome}">
                 </div>
                 <div class="info-anuncio">
                     <a href="assets/html/itemPage.html?id=${produto.id}">
@@ -83,7 +83,7 @@ const cesta = (listaProdutos) => {
         return `
         <article class="item-cesta">
             <div class="img-cesta">
-                <img src="${produto.imagem}" alt="${produto.nome}">
+                <img src="assets/${produto.imagem}" alt="${produto.nome}">
             </div>
             <div class="info-cesta">
                 <a href="assets/html/itemPage.html?id=${produto.id}">
@@ -115,7 +115,7 @@ const tropical = (listaProdutos) => {
         return `
         <article class="item-tropical">
             <div class="img-tropical">
-                <img src="${produto.imagem}" alt="${produto.nome}">
+                <img src="assets/${produto.imagem}" alt="${produto.nome}">
             </div>
             <div class="info-tropical">
                 <a href="assets/html/itemPage.html?id=${produto.id}">
@@ -149,7 +149,7 @@ const tropicalMetade = (listaProdutos) => {
             item += `        
             <article class="item-tropical">
                 <div class="img-tropical">
-                    <img src="${produto.imagem}" alt="${produto.nome}">
+                    <img src="assets/${produto.imagem}" alt="${produto.nome}">
                 </div>
                 <div class="info-tropical">
                     <a href="assets/html/itemPage.html?id=${produto.id}">

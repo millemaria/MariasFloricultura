@@ -19,7 +19,7 @@ const tropicalOutraMetade = (listaProdutos) => {
             item += `        
             <article class="item-tropical">
                 <div class="img-tropical">
-                    <img src="/${produto.imagem}" alt="${produto.nome}">
+                    <img src="../${produto.imagem}" alt="${produto.nome}">
                 </div>
                 <div class="info-tropical">
                     <a href="./itemPage.html?id=${produto.id}">
@@ -48,7 +48,7 @@ const buque = (listaProdutos) => {
         return `
         <article class="item-buque">
             <div class="img-buque">
-                <img src="/${produto.imagem}" alt="${produto.nome}">
+                <img src="../${produto.imagem}" alt="${produto.nome}">
             </div>
             <div class="info-buque">
                 <a href="./itemPage.html?id=${produto.id}">
@@ -75,7 +75,7 @@ const box = (listaProdutos) => {
         return `
         <article class="item-box">
             <div class="img-box">
-                <img src="/${produto.imagem}" alt="${produto.nome}">
+                <img src="../${produto.imagem}" alt="${produto.nome}">
             </div>
             <div class="info-box">
                 <a href="./itemPage.html?id=${produto.id}">
