@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,79 +9,82 @@
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/modoDark.css">
     <link rel="stylesheet" href="../css/ListadeDesejos.css">
+    <link rel="stylesheet" href="../css/itemPage.css">
+    <link rel="stylesheet" href="../css/carrinho-desejos.css">
     <title>Document</title>
 </head>
+
 <body>
 
     <div class="container">
 
         <header>
             <div class="header-top">
-    
+
                 <div class="logo-img">
-    
+
                     <a href="../../index.html">
                         <img src="../img/logoMarca.svg" alt="Logo Marca">
                     </a>
-    
+
                 </div>
-    
+
                 <div class="content-header">
-    
+
                     <div class="acessibilidade">
-    
+
                         <img src="../img/icon/bandeiraBrasil.svg" class="tradutor" alt="">
                         <img src="../img/icon/bandeiraEUA.svg" class="tradutor" alt="">
-    
+
                         <div class="acessibilidade-visual">
-    
+
                             <button id="aumentarFonte">A+</button>
                             <button id="diminuirFonte">A-</button>
-    
+
                         </div>
-    
+
                     </div>
-    
+
                     <div id="modo-dark" class="modo-light">
                         <div class="light" id="darkLight">
                             <i class="fa-solid fa-sun" id="modo-img" alt=""></i>
                         </div>
                     </div>
-    
+
                     <div class="login">
                         <a href="../html/login.html">
                             <i class="fa-solid fa-user" id="iconLogin"></i>
                         </a>
                     </div>
-    
+
                 </div>
-    
+
             </div>
-    
+
             <div id="mockado"></div>
-    
+
             <div class="nav">
-    
+
                 <ul>
-    
+
                     <li class="nav-header">
                         <a href="../../index.html#promocao">
                             Promoções
                         </a>
                     </li>
-    
+
                     <li class="nav-header">
                         <a href="../../index.html#cestas">
                             Cestas
                         </a>
                     </li>
-    
+
                     <li class="nav-header">
                         <a href="../../index.html#catalogoTropical">
                             Catálogo
                         </a>
                     </li>
-    
+
                     <li class="nav-header">
                         <a href="./index2.html#buques">
                             Buquês
@@ -94,35 +98,130 @@
                     <li class="nav-header">
                         <div>
                             <ul>
-    
+
                                 <li>
                                     <a href="">
                                         <i class="fa-solid fa-magnifying-glass"></i>
                                     </a>
                                 </li>
-    
+
                                 <li>
                                     <a href="">
                                         <i class="fa-solid fa-basket-shopping"></i>
                                     </a>
                                 </li>
-    
+
                                 <li>
                                     <a href="../html/ListadeDesejos.html">
                                         <i class="fa-solid fa-heart"></i>
                                     </a>
                                 </li>
-    
+
                             </ul>
                         </div>
                     </li>
-    
+
                 </ul>
-    
+
             </div>
-    
+
         </header>
-    
+
+        <main>
+
+            <img src="../img/icon/IA.svg" class="chatbot" alt="">
+
+            <div class="container-item">
+                <div class="item-img">
+                    <img src="https://placehold.co/290x208" id="item-imagem">
+                </div>
+                <div class="item-info">
+                    <h1 id="produto">Antúrio</h1>
+                    <p id="valor">R$ 100,00</p>
+                    <p id="parcelamento">5x de R$32,00 sem juros</p>
+                    <p id="descricao">Descrição: <br> Esse arranjo pode ser usado de diversas formas, podendo ajudar a
+                        enfeitar vários cômodos da casa, como: centro de mesa, hall de entrada, lavabo, penteadeiras e
+                        até deixar os nichos da sua cozinha mais alegres. </p>
+                    <div class="item-info2">
+                        <div class="qtd">
+                            <button>+</button>
+                            <span>1</span>
+                            <button>-</button>
+                        </div>
+
+                        <button id="btn-anuncio-compra">Comprar</button>
+                        <i class="fa-solid fa-basket-shopping carrinho"></i>
+
+                    </div>
+
+                    <div class="destino">
+                        <label id="destinatario">
+                            <input type="text" placeholder="Insira o destinatário">
+                        </label>
+
+                        <label id="mensagem">
+                            <input type="text" placeholder="Deixe uma mensagem aqui">
+                        </label>
+
+                    </div>
+
+                </div>
+            </div>
+
+            
+            <div class="sobre-produto">
+                <section class="sobre">
+                    <h1>Sobre produto:</h1>
+                    <p>
+                        Os lírios são plantas bulbosas que pertencem à família Liliaceae e são apreciados por suas belas
+                        flores grandes e vistosas. Existem muitas variedades diferentes de lírios, incluindo lírios
+                        asiáticos, lírios orientais, lírios trombeta, lírios do vale e muito mais. Cada variedade tem
+                        suas próprias características distintas, como tamanho, forma, cor e fragrância.
+                        <br>
+                        <br>
+                        As flores do lírio geralmente crescem em caules altos e eretos, com folhas longas e estreitas
+                        que se estendem ao longo do caule. As flores têm seis pétalas em forma de trombeta, com uma
+                        ampla variedade de cores, incluindo branco, rosa, amarelo, laranja, vermelho e muito mais.
+                        Algumas variedades de lírios são perfumadas e emitem um aroma doce e agradável.
+                    
+                        <br>
+                        <br>
+                        DURAÇÃO: 5 DIAS
+                    </p>
+                </section>
+                <section class="importante">
+                    <h1>Importante:</h1>
+                    <p>
+                        Nós da MARIA'S Flores trabalhamos com floriculturas parceiras por todo o Brasil que tem
+                        treinamento, experiência e materiais para manter a qualidade exigida. Porém, devido às
+                        características de cada local, variações naturais das flores e outras interferências, os
+                        produtos podem sofrer alterações. As imagens exibidas são meramente ilustrativas.</p>
+                </section>
+                <section class="frete">
+                    <h1>Frete:</h1>
+                    <p>
+                        Para consultar o prazo e valor preencha o CEP do destinatário, clique em OK e verifique as
+                        opções
+                        disponíveis. Para acompanhar o seu pedido, prossiga com a compra e informe o seu telefone
+                        celular no campo de Confirmação de Entrega localizado na página de Entrega.</p>
+                </section>
+                <section class="especificacao">
+                    <h1>Especificações: </h1>
+                    <p>
+                        MARCA: <br> <br>
+                        MARIA´S <br> <br>
+                        DIMENSÕES: <br> <br>
+                        Largura: 35cm <br> <br>
+                        Altura: 12cm <br> <br>
+                        Diâmetro: 12cm <br> <br>
+                        PESO: 550g
+                    </p>
+                </section>
+
+            </div>
+
+        </main>
+
     </div>
 
     <script src="../js/modoDark.js"></script>
@@ -131,4 +230,5 @@
     <script src="../../services/api.js"></script>
     <script src="../../services/itemPage.js"></script>
 </body>
+
 </html>

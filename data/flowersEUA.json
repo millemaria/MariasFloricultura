@@ -1,0 +1,295 @@
+{
+  "flores": [
+    {
+      "id": 1,
+      "nome": "Lírios do Campo",
+      "valor": 60.00,
+      "valorPromocional": 30.00,
+      "imagem": "/img/img flores/Lirio.png",
+      "descricao": "In English",
+      "categoria": "Promoção"
+    },
+    {
+      "id": 2,
+      "nome": "Arranjo de Lírios Rosas",
+      "valor": 180.00,
+      "valorPromocional": 140.00,
+      "imagem": "/img/img flores/arranjoLirioRosa.png",
+      "descricao": "Cada composição é cuidadosamente elaborada para transmitir uma sensação de serenidade e beleza romântica.",
+      "categoria": "Promoção"
+    },
+    {
+      "id": 3,
+      "nome": "Buquê de Astromélia",
+      "valor": 109.00,
+      "valorPromocional": 89.00,
+      "imagem": "/img/img flores/buquedeastromelia.png",
+      "descricao": "As astromélias, com suas pétalas vibrantes e duradouras, trazem alegria e sofisticação a qualquer ocasião",
+      "categoria": "Promoção"
+    },
+    {
+      "id": 4,
+      "nome": "Cesta Amor Doce com Espumante",
+      "valor": 1200.00,
+      "imagem": "/img/img flores/cesta-chocolate-ferrero-rocher-espumante.png",
+      "descricao": "Quer presentear alguém que você ama e adoçar essa relação? Surpreenda agora mesmo com a Cesta Amor Doce no Dia dos Namorados ou no Dia de São Valentim!",
+      "categoria": "Anúncio"
+    },
+    {
+      "id": 5,
+      "nome": "Cesta de Presente Premium Luxury",
+      "valor": 1350.00,
+      "imagem": "/img/img flores/CestadePresente.png",
+      "descricao": "Este disputado Vinho é produzido para o mercado interno argentino, onde é cultuado e se esgota rapidamente, alcançando altíssimos preços em safras antigas. Grande clássico da América do Sul.",
+      "categoria": "Cestas"
+    },
+    {
+      "id": 6,
+      "nome": "Cesta de Presente Luxo",
+      "valor": 1780.00,
+      "imagem": "/img/img flores/CestadePresenteLuxo.png",
+      "descricao": "Hoje, Pêra-Manca é o vinho de exceção da Adega Cartuxa - Fundação Eugénio de Almeida. É produzido unicamente quando todos os requisitos de excepcional qualidade se cumprem.",
+      "categoria": "Cestas"
+    },
+    {
+      "id": 7,
+      "nome": "Cesta de Presente Luxo G&O Cartuxa Tinto",
+      "valor": 998.00,
+      "imagem": "/img/img flores/CestaTintoLuxo.png",
+      "descricao": "Cartuxa Evora Colheita Tinto, um clássico do Alentejo (Portugal). Deve o seu nome aos monges Cartuxos que vivem em reclusão e oração no Mosteiro da Cartuxa desde 1958.",
+      "categoria": "Cestas"
+    },
+    {
+      "id": 8,
+      "nome": "Cesta de Presente G&O Alma Negra",
+      "valor": 779.00,
+      "imagem": "/img/img flores/cestaGO.png",
+      "descricao": "O Vinho Alma Negra é um delicioso 'corte secreto' de Tikal. O bouquet é exuberante e exótico, enquanto no palato mostra-se macio e intenso, com personalidade bastante peculiar.",
+      "categoria": "Cestas"
+    },
+    {
+      "id": 9,
+      "nome": "Alpinia Purpurata",
+      "valor": 63.00,
+      "imagem": "/img/img flores/alpinia.png",
+      "descricao": "Se você busca adicionar um toque tropical e exuberante aos seus arranjos florais ou deseja cultivar uma planta ornamental única em seu jardim",
+      "categoria": "Catálogo Tropical"
+    },
+    {
+      "id": 10,
+      "nome": "Ave do Paraíso",
+      "valor": 40.00,
+      "imagem": "/img/img flores/Ave-do-paraiso.png",
+      "descricao": "Essas flores parecem ter um pássaro em voo emergindo delas, daí o nome popular 'Ave do Paraíso'.",
+      "categoria": "Catálogo Tropical"
+    },
+    {
+      "id": 11,
+      "nome": "Bastão do Imperador",
+      "valor": 59.00,
+      "imagem": "/img/img flores/bastão do imperador.png",
+      "descricao": "Sua presença majestosa e exuberante certamente será apreciada pelos amantes de plantas exóticas.",
+      "categoria": "Catálogo Tropical"
+    },
+    {
+      "id": 12,
+      "nome": "Clivia Miniata",
+      "valor": 60.00,
+      "imagem": "/img/img flores/clivia Miniata.png",
+      "descricao": "Considerada um símbolo de prosperidade e riqueza. Sua folhagem exuberante e flores brilhantes são associadas a abundância e boa sorte.",
+      "categoria": "Catálogo Tropical"
+    },
+    {
+      "id": 13,
+      "nome": "Orquídeas",
+      "valor": 90.00,
+      "imagem": "/img/img flores/Orquídeas.png",
+      "descricao": "Suas flores coloridas e formas delicadas são admiradas em todo o mundo.um símbolo de amor e romance.",
+      "categoria": "Catálogo Tropical"
+    },
+    {
+      "id": 14,
+      "nome": "Cyclamen",
+      "valor": 65.00,
+      "imagem": "/img/img flores/cyclamen-flor.png",
+      "descricao": "Flor cyclame é associada ao amor materno. Ela pode representar o amor e o carinho que uma mãe tem por seus filhos.",
+      "categoria": "Catálogo Tropical"
+    },
+    {
+      "id": 15,
+      "nome": "Astromélia",
+      "valor": 70.00,
+      "imagem": "/img/img flores/Astromèlia.png",
+      "descricao": "A astromélia é considerada um símbolo de prosperidade e boa sorte.  frequentemente associada à amizade duradoura e sincera.",
+      "categoria": "Catálogo Tropical"
+    },
+    {
+      "id": 16,
+      "nome": "Lírio da Paz",
+      "valor": 45.00,
+      "imagem": "/img/img flores/Lírio da paz.png",
+      "descricao": "Está associado à paz, tranquilidade e harmonia, é como um lembrete para buscar um equilíbrio saudável em todos os aspectos da vida.",
+      "categoria": "Catálogo Tropical"
+    },
+    {
+      "id": 17,
+      "nome": "Antúrio",
+      "valor": 45.99,
+      "imagem": "/img/img flores/Antúrio.png",
+      "descricao": "Se você busca adicionar um toque de hospitalidade e luxo , essa flor é essencial,que também é usada em casamamentos.",
+      "categoria": "Catálogo Tropical"
+    },
+    {
+      "id": 18,
+      "nome": "Frangipani",
+      "valor": 48.50,
+      "imagem": "/img/img flores/Frangipani.png",
+      "descricao": "Essas flores significam abrigo e proteção , as mesmas também são excelentes para fazer buques de noiva.",
+      "categoria": "Catálogo Tropical"
+    },
+    {
+      "id": 19,
+      "nome": "Lírio do Amazonas",
+      "valor": 115.00,
+      "imagem": "/img/img flores/LíriodoAmazonas.png",
+      "descricao": "Sua presença majestosa e exuberante certamente será apreciada pelos amantes de plantas exóticas. trazendo consigo purezae proteção.",
+      "categoria": "Catálogo Tropical"
+    },
+    {
+      "id": 20,
+      "nome": "Bromélia",
+      "valor": 24.90,
+      "imagem": "/img/img flores/Bromélia.png",
+      "descricao": "Essa planta pode ser associadas a purificafacao da alma ,uma vez que tem acao desintoxicante e afastam as energias negativas.",
+      "categoria": "Catálogo Tropical"
+    },
+    {
+      "id": 21,
+      "nome": "Flor do gengibre",
+      "valor": 50.00,
+      "imagem": "/img/img flores/FlorDoGengibre.png",
+      "descricao": "É  bastante encantadora e também bem usada em jardins residenciais.",
+      "categoria": "Catálogo Tropical"
+    },
+    {
+      "id": 22,
+      "nome": "Helicônia",
+      "valor": 15.00,
+      "imagem": "/img/img flores/Helicônia.png",
+      "descricao": "Essa flor simboliza grandes retornos, e sua essencia floral é utilizada para inspiração e para por ideias em movimento.",
+      "categoria": "Catálogo Tropical"
+    },
+    {
+      "id": 23,
+      "nome": "Maracujá",
+      "valor": 70.00,
+      "imagem": "/img/img flores/Maracujá.png",
+      "descricao": "Trazendo a Paixão de Cristo em memótia , por isso chamada flor de Maracujá.",
+      "categoria": "Catálogo Tropical"
+    },
+    {
+      "id": 24,
+      "nome": "Estrela-cadente",
+      "valor": 45.00,
+      "imagem": "/img/img flores/Estrela-cadente.png",
+      "descricao": "Está associado à fé, tranquilidade e harmonia, é como um lembrete para buscar um equilíbrio saudável em todos os aspectos da vida.",
+      "categoria": "Catálogo Tropical"
+    },
+    {
+      "id": 25,
+      "nome": "Buquê vermelho",
+      "valor": 100.00,
+      "imagem": "/img/img flores/Buquê vermelho.png",
+      "descricao": "Cada pétala vermelha resplandece com energia e vitalidade, simbolizando a chama da paixão que arde no coração.",
+      "categoria": "Buquês"
+    },
+    {
+      "id": 26,
+      "nome": "Buquê Amarela",
+      "valor": 125.00,
+      "imagem": "/img/img flores/Buquê Amarela.png",
+      "descricao": "Um buquê amarela trás a luz, calor, otimismo e alegria para o lar, simbolizado pelo sol e o verão, trás prosperiadade e feliciadade.",
+      "categoria": "Buquês"
+    },
+    {
+      "id": 27,
+      "nome": "Buquê Orquídeas",
+      "valor": 120.00,
+      "imagem": "/img/img flores/Buquê Orquídeas.png",
+      "descricao": "Um buquê de orquídeas são consideradas flores de beleza incomparável, com suas formas exóticas e cores vibrantes, símbolo de admiração pela beleza e graça de alguém.",
+      "categoria": "Buquês"
+    },
+    {
+      "id": 28,
+      "nome": "Buquê Girasol",
+      "valor": 130.00,
+      "imagem": "/img/img flores/Buquê Girasol.png",
+      "descricao": "Um buquê de girassóis pode transmitir sentimentos de alegria e celebrar momentos felizes, também simbolizam amizade e apreço.",
+      "categoria": "Buquês"
+    },
+    {
+      "id": 29,
+      "nome": "Buquê Mix",
+      "valor": 150.00,
+      "imagem": "/img/img flores/Buquê Mix.png",
+      "descricao": "O buquê Mix é frequentemente associado ao amor romântico, Cada rosa pode representar um gesto de amor e carinho, expressando sentimentos profundos e apaixonados.",
+      "categoria": "Buquês"
+    },
+    {
+      "id": 30,
+      "nome": "Buquê Lirio",
+      "valor": 130.00,
+      "imagem": "/img/img flores/Buquê Lirio.png",
+      "descricao": "Um buquê de lírios pode ser oferecido como um presente para elogiar a beleza de alguém ou como um gesto de apreciação pela graça e sofisticação de uma pessoa.",
+      "categoria": "Buquês"
+    },
+    {
+      "id": 31,
+      "nome": "Buquê Tropical",
+      "valor": 155.00,
+      "imagem": "/img/img flores/Buquê Tropical.png",
+      "descricao": "Associadas a um senso de vitalidade e energia. Elas podem representar a vitalidade da natureza tropical e transmitir um sentimento de vigor, entusiasmo e força.",
+      "categoria": "Buquês"
+    },
+    {
+      "id": 32,
+      "nome": "Buquê Paraiso",
+      "valor": 160.00,
+      "imagem": "/img/img flores/Buquê Paraiso.png",
+      "descricao": "Um buquê paraíso pode simbolizar a singularidade de uma pessoa ou uma ocasião especial, representar algo raro e especial, destacando-se entre os demais.",
+      "categoria": "Buquês"
+    },
+    {
+      "id": 33,
+      "nome": "Tropical Box",
+      "valor": 250.00,
+      "imagem": "/img/img flores/Tropical Box.png",
+      "descricao": "Nossa versão tropical box, com um mix de flores tropicais de diferentes estilos, para deixar o ambiente em harmonia com a natureza.",
+      "categoria": "Box"
+    },
+    {
+      "id": 34,
+      "nome": "Kraft Box",
+      "valor": 220.00,
+      "imagem": "/img/img flores/Kraft Box.png",
+      "descricao": "Nossa versão cool para presentear com flores de Flores em caixa de papel kraft com acabamento em papel seda.",
+      "categoria": "Box"
+    },
+    {
+      "id": 35,
+      "nome": "Hat Box",
+      "valor": 100.00,
+      "imagem": "/img/img flores/Hat Box.png",
+      "descricao": "Arranjo de flores em caixa redonda de papel acartonado com acabamento em papel seda e alça de cetim.",
+      "categoria": "Box"
+    },
+    {
+      "id": 36,
+      "nome": "Sweet Box",
+      "valor": 240.00,
+      "imagem": "/img/img flores/Sweet Box.png",
+      "descricao": "Arranjo de flores que combina delicadeza e elegância. É composto por uma variedade de flores em tons suaves e românticos",
+      "categoria": "Box"
+    }
+  ]
+}

@@ -28,7 +28,7 @@ const promocao = (listaProdutos) => {
                 <span class="valorAtual">Por: R$ ${produto.valorPromocional.toFixed(2).replace('.', ',')}</span>
                 <span class="spanButton">
                     <i class="fa-solid fa-heart desejo"></i>
-                    <i class="fa-solid fa-basket-shopping"></i>
+                    <i class="fa-solid fa-basket-shopping carrinho"></i>
                 </span>
                     
             </div>
@@ -66,7 +66,7 @@ const anuncio = (listaProdutos) => {
                         </div>
 
                         <button id="btn-anuncio-compra">Comprar</button>
-                        <i class="fa-solid fa-basket-shopping"></i>
+                        <i class="fa-solid fa-basket-shopping carrinho"></i>
                     </div>
                 </div>
             </article>
@@ -97,7 +97,7 @@ const cesta = (listaProdutos) => {
                         <span>1</span>
                         <button>-</button>
                     </div>
-                    <i class="fa-solid fa-basket-shopping"></i>
+                    <i class="fa-solid fa-basket-shopping carrinho"></i>
                 </div>
             </div>
         </article>
@@ -125,7 +125,7 @@ const tropical = (listaProdutos) => {
                 <span class="valor-tropical">R$ ${produto.valor.toFixed(2).replace('.', ',')}</span>
                 <span class="btn-span">
                     <i class="fa-solid fa-heart desejo"></i>
-                    <i class="fa-solid fa-basket-shopping"></i>
+                    <i class="fa-solid fa-basket-shopping carrinho"></i>
                 </span>
                 </div>
         </article>
@@ -159,7 +159,7 @@ const tropicalMetade = (listaProdutos) => {
                     <span class="valor-tropical">R$ ${produto.valor.toFixed(2).replace('.', ',')}</span>
                     <span class="btn-span">
                         <i class="fa-solid fa-heart desejo"></i>
-                        <i class="fa-solid fa-basket-shopping"></i>
+                        <i class="fa-solid fa-basket-shopping carrinho"></i>
                     </span>
                     </div>
             </article>
@@ -200,7 +200,7 @@ const tropicalOutraMetade = (listaProdutos) => {
                     <span class="valor-tropical">R$ ${produto.valor.toFixed(2).replace('.', ',')}</span>
                     <span class="btn-span">
                         <i class="fa-solid fa-heart desejo"></i>
-                        <i class="fa-solid fa-basket-shopping"></i>
+                        <i class="fa-solid fa-basket-shopping carrinho"></i>
                     </span>
                     </div>
             </article>
