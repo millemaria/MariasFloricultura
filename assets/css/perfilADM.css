@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 .barraADM {
-    margin-top: 50px;
+    margin-top: 71px;
     background-color: #8DBBE7;
     height: 100vh;
     width: 250px;
@@ -41,10 +42,75 @@
     background-color: #fff;
     color: #8DBBE7;
 }
-/* .perfildoadm{
-    border-bottom: 1px solid;
-    color: #1c1c1c;
+
+.areaADM {
+    margin-left: 250px;
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.editarperfiladm{
-    margin-top: 100px;
-} */
+
+.areaADM h1 {
+    display: inline-block;
+    border-bottom: 1px solid;
+    font-weight: 400;
+    width: 400px;
+}
+
+.infoADM {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    padding: 0 100px;
+}
+
+.info-direita {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.info-direita h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+
+    color: #1C1C1C;
+}
+
+.info-direita label input{
+    width: 30%;
+}
+
+.info-direita label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+
+    color: #000000;
+
+}
+
+.admns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.admins {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.admins h4 {
+    font-weight: 400;
+    font-size: 20px;
+}

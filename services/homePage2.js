@@ -51,7 +51,7 @@ const buque = (listaProdutos) => {
                 <img src="/${produto.imagem}" alt="${produto.nome}">
             </div>
             <div class="info-buque">
-                <a href="assets/html/itemPage.html?id=${produto.id}">
+                <a href="/assets/html/itemPage.html?id=${produto.id}">
                     <h4>${produto.nome}</h4>
                 </a>
                 <p>${produto.descricao}</p>
@@ -78,7 +78,7 @@ const box = (listaProdutos) => {
                 <img src="/${produto.imagem}" alt="${produto.nome}">
             </div>
             <div class="info-box">
-                <a href="assets/html/itemPage.html?id=${produto.id}">
+                <a href="/assets/html/itemPage.html?id=${produto.id}">
                     <h4>${produto.nome}</h4>
                 </a>
                 <p>${produto.descricao}</p>

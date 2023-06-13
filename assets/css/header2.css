@@ -17,6 +17,10 @@
   --vermelho-font: #ff0000;
 }
 
+.clear {
+  clear: both;
+}
+
 * {
   margin: 0;
   padding: 0;
