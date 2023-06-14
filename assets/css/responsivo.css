@@ -244,3 +244,11 @@
     }
 
 }
+
+@media screen and (max-width: 1400px){
+    
+    .item-cesta {
+        width: 591px;
+    }
+
+}
