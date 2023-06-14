@@ -2,110 +2,110 @@
   "flores": [
     {
       "id": 1,
-      "nome": "Lírios do Campo",
+      "nome": "Field Lilies",
       "valor": 60.00,
       "valorPromocional": 30.00,
       "imagem": "/img/img flores/Lirio.png",
-      "descricao": "In English",
-      "categoria": "Promoção"
+      "descricao": "awaken the country and charming atmosphere with our lily of the field bouquets",
+      "categoria": "Promotion"
     },
     {
       "id": 2,
-      "nome": "Arranjo de Lírios Rosas",
+      "nome": "Pink Lilies arrangements",
       "valor": 180.00,
       "valorPromocional": 140.00,
       "imagem": "/img/img flores/arranjoLirioRosa.png",
-      "descricao": "Cada composição é cuidadosamente elaborada para transmitir uma sensação de serenidade e beleza romântica.",
-      "categoria": "Promoção"
+      "descricao": "Each composition is carefully crafted to convey a sens of serenity and romantic beauty",
+      "categoria": "Promotion"
     },
     {
       "id": 3,
-      "nome": "Buquê de Astromélia",
+      "nome": "Bromeliad Bouquet",
       "valor": 109.00,
       "valorPromocional": 89.00,
       "imagem": "/img/img flores/buquedeastromelia.png",
-      "descricao": "As astromélias, com suas pétalas vibrantes e duradouras, trazem alegria e sofisticação a qualquer ocasião",
-      "categoria": "Promoção"
+      "descricao": "Bromeliads with their vibrant, long-lasting petals bring joy and sophistication",
+      "categoria": "Promotion"
     },
     {
       "id": 4,
-      "nome": "Cesta Amor Doce com Espumante",
+      "nome": "Sweete love Basket with sparkling wine",
       "valor": 1200.00,
       "imagem": "/img/img flores/cesta-chocolate-ferrero-rocher-espumante.png",
-      "descricao": "Quer presentear alguém que você ama e adoçar essa relação? Surpreenda agora mesmo com a Cesta Amor Doce no Dia dos Namorados ou no Dia de São Valentim!",
-      "categoria": "Anúncio"
+      "descricao": "Do you wnat to give someone you love gift and sweeten that relationship. Surprise ridht now wiht the sweet love Basket on Valentine's Days ",
+      "categoria": "Announcement"
     },
     {
       "id": 5,
-      "nome": "Cesta de Presente Premium Luxury",
+      "nome": "Premium luxury gift Basket",
       "valor": 1350.00,
       "imagem": "/img/img flores/CestadePresente.png",
-      "descricao": "Este disputado Vinho é produzido para o mercado interno argentino, onde é cultuado e se esgota rapidamente, alcançando altíssimos preços em safras antigas. Grande clássico da América do Sul.",
-      "categoria": "Cestas"
+      "descricao": "This type of disputed wine is produced for the domestic Argentine market , where it is cultivated , these guards quickly reach very high prices in old vintages great classic from South America",
+      "categoria": "baskets"
     },
     {
       "id": 6,
-      "nome": "Cesta de Presente Luxo",
+      "nome": "Luxury Gift Basket",
       "valor": 1780.00,
       "imagem": "/img/img flores/CestadePresenteLuxo.png",
-      "descricao": "Hoje, Pêra-Manca é o vinho de exceção da Adega Cartuxa - Fundação Eugénio de Almeida. É produzido unicamente quando todos os requisitos de excepcional qualidade se cumprem.",
-      "categoria": "Cestas"
+      "descricao": "Today, Pêra-Manca is the exceptional wine of Adega Cartuxa - Eugénio de Almeida Foundation. It is only produced when all exceptional quality requirements are met.",
+      "categoria": "baskets"
     },
     {
       "id": 7,
-      "nome": "Cesta de Presente Luxo G&O Cartuxa Tinto",
+      "nome": "Luxury Gift Basket G&O Cartuxa Red",
       "valor": 998.00,
       "imagem": "/img/img flores/CestaTintoLuxo.png",
-      "descricao": "Cartuxa Evora Colheita Tinto, um clássico do Alentejo (Portugal). Deve o seu nome aos monges Cartuxos que vivem em reclusão e oração no Mosteiro da Cartuxa desde 1958.",
-      "categoria": "Cestas"
+      "descricao": "Cartuxa Evora Colheita Red, a classic from Alentejo (Portugal). It owes its name to the Carthusian monks who have lived in seclusion and prayer in the Monastery of Cartuxa since 1958.",
+      "categoria": "baskets"
     },
     {
       "id": 8,
-      "nome": "Cesta de Presente G&O Alma Negra",
+      "nome": "Gift Basket G&O Alma Negra",
       "valor": 779.00,
       "imagem": "/img/img flores/cestaGO.png",
-      "descricao": "O Vinho Alma Negra é um delicioso 'corte secreto' de Tikal. O bouquet é exuberante e exótico, enquanto no palato mostra-se macio e intenso, com personalidade bastante peculiar.",
-      "categoria": "Cestas"
+      "descricao": "Alma Negra Wine is a delicious 'secret cut' from Tikal. The bouquet is exuberant and exotic, while on the palate it is soft and intense, with a very peculiar personality.",
+      "categoria": "baskets"
     },
     {
       "id": 9,
       "nome": "Alpinia Purpurata",
       "valor": 63.00,
       "imagem": "/img/img flores/alpinia.png",
-      "descricao": "Se você busca adicionar um toque tropical e exuberante aos seus arranjos florais ou deseja cultivar uma planta ornamental única em seu jardim",
-      "categoria": "Catálogo Tropical"
+      "descricao": "If you Tropical Catalogare looking to add a tropical and lush touch to your floral arrangements or want to grow a unique ornamental plant in your garden",
+      "categoria": ""
     },
     {
       "id": 10,
-      "nome": "Ave do Paraíso",
+      "nome": "Paradise Bird",
       "valor": 40.00,
       "imagem": "/img/img flores/Ave-do-paraiso.png",
-      "descricao": "Essas flores parecem ter um pássaro em voo emergindo delas, daí o nome popular 'Ave do Paraíso'.",
-      "categoria": "Catálogo Tropical"
+      "descricao": "These flowers appear to have a bird in flight emerging from them, hence the popular name 'Bird of Paradise'.",
+      "categoria": "Tropical Catalog"
     },
     {
       "id": 11,
-      "nome": "Bastão do Imperador",
+      "nome": "Emperor's Staff",
       "valor": 59.00,
       "imagem": "/img/img flores/bastão do imperador.png",
-      "descricao": "Sua presença majestosa e exuberante certamente será apreciada pelos amantes de plantas exóticas.",
-      "categoria": "Catálogo Tropical"
+      "descricao": "Its majestic and exuberant presence will certainly be appreciated by lovers of exotic plants.",
+      "categoria": "Tropical Catalog"
     },
     {
       "id": 12,
       "nome": "Clivia Miniata",
       "valor": 60.00,
       "imagem": "/img/img flores/clivia Miniata.png",
-      "descricao": "Considerada um símbolo de prosperidade e riqueza. Sua folhagem exuberante e flores brilhantes são associadas a abundância e boa sorte.",
-      "categoria": "Catálogo Tropical"
+      "descricao": "Considered a symbol of prosperity and wealth. Its lush foliage and bright flowers are associated with abundance and good fortune.",
+      "categoria": "Tropical Catalog"
     },
     {
       "id": 13,
-      "nome": "Orquídeas",
+      "nome": "Orchids",
       "valor": 90.00,
       "imagem": "/img/img flores/Orquídeas.png",
-      "descricao": "Suas flores coloridas e formas delicadas são admiradas em todo o mundo.um símbolo de amor e romance.",
-      "categoria": "Catálogo Tropical"
+      "descricao": "Its colorful flowers and delicate shapes are admired all over the world. A symbol of love and romance. Its colorful flowers and delicate shapes are admired all over the world. A symbol of love and romance.",
+      "categoria": "Tropical Catalog"
     },
     {
       "id": 14,
@@ -113,135 +113,135 @@
       "valor": 65.00,
       "imagem": "/img/img flores/cyclamen-flor.png",
       "descricao": "Flor cyclame é associada ao amor materno. Ela pode representar o amor e o carinho que uma mãe tem por seus filhos.",
-      "categoria": "Catálogo Tropical"
+      "categoria": "Tropical Catalog"
     },
     {
       "id": 15,
-      "nome": "Astromélia",
+      "nome": "Astromelia",
       "valor": 70.00,
       "imagem": "/img/img flores/Astromèlia.png",
-      "descricao": "A astromélia é considerada um símbolo de prosperidade e boa sorte.  frequentemente associada à amizade duradoura e sincera.",
-      "categoria": "Catálogo Tropical"
+      "descricao": "Astromelia is considered a symbol of prosperity and good luck. often associated with lasting and sincere friendship.",
+      "categoria": "Tropical Catalog"
     },
     {
       "id": 16,
       "nome": "Lírio da Paz",
       "valor": 45.00,
       "imagem": "/img/img flores/Lírio da paz.png",
-      "descricao": "Está associado à paz, tranquilidade e harmonia, é como um lembrete para buscar um equilíbrio saudável em todos os aspectos da vida.",
-      "categoria": "Catálogo Tropical"
+      "descricao": "It is associated with peace, tranquility and harmony, it is like a reminder to seek a healthy balance in all aspects of life.",
+      "categoria": "Tropical Catalog"
     },
     {
       "id": 17,
-      "nome": "Antúrio",
+      "nome": "Anthurium",
       "valor": 45.99,
       "imagem": "/img/img flores/Antúrio.png",
-      "descricao": "Se você busca adicionar um toque de hospitalidade e luxo , essa flor é essencial,que também é usada em casamamentos.",
-      "categoria": "Catálogo Tropical"
+      "descricao": "If you are looking to add a touch of hospitality and luxury, this flower is a must-have, which is also used at weddings.",
+      "categoria": "Tropical Catalog"
     },
     {
       "id": 18,
       "nome": "Frangipani",
       "valor": 48.50,
       "imagem": "/img/img flores/Frangipani.png",
-      "descricao": "Essas flores significam abrigo e proteção , as mesmas também são excelentes para fazer buques de noiva.",
-      "categoria": "Catálogo Tropical"
+      "descricao": "These flowers mean shelter and protection, they are also excellent for making bridal bouquets.",
+      "categoria": "Tropical Catalog"
     },
     {
       "id": 19,
-      "nome": "Lírio do Amazonas",
+      "nome": "Amazon Lily",
       "valor": 115.00,
       "imagem": "/img/img flores/LíriodoAmazonas.png",
-      "descricao": "Sua presença majestosa e exuberante certamente será apreciada pelos amantes de plantas exóticas. trazendo consigo purezae proteção.",
-      "categoria": "Catálogo Tropical"
+      "descricao": "Its majestic and exuberant presence will certainly be appreciated by lovers of exotic plants. bringing with it purity and protection.",
+      "categoria": "Tropical Catalog"
     },
     {
       "id": 20,
-      "nome": "Bromélia",
+      "nome": "BromElia",
       "valor": 24.90,
       "imagem": "/img/img flores/Bromélia.png",
-      "descricao": "Essa planta pode ser associadas a purificafacao da alma ,uma vez que tem acao desintoxicante e afastam as energias negativas.",
-      "categoria": "Catálogo Tropical"
+      "descricao": "This plant can be associated with the purification of the soul, since it has detoxifying action and removes negative energies.",
+      "categoria": "Tropical Catalog"
     },
     {
       "id": 21,
-      "nome": "Flor do gengibre",
+      "nome": "Ginger Flower",
       "valor": 50.00,
       "imagem": "/img/img flores/FlorDoGengibre.png",
-      "descricao": "É  bastante encantadora e também bem usada em jardins residenciais.",
-      "categoria": "Catálogo Tropical"
+      "descricao": "It is quite charming and also well used in home gardens.",
+      "categoria": "Tropical Catalog"
     },
     {
       "id": 22,
-      "nome": "Helicônia",
+      "nome": "Heliconia",
       "valor": 15.00,
       "imagem": "/img/img flores/Helicônia.png",
-      "descricao": "Essa flor simboliza grandes retornos, e sua essencia floral é utilizada para inspiração e para por ideias em movimento.",
-      "categoria": "Catálogo Tropical"
+      "descricao": "This flower symbolizes great returns, and its floral essence is used for inspiration and to set ideas in motion.",
+      "categoria": "Tropical Catalog"
     },
     {
       "id": 23,
-      "nome": "Maracujá",
+      "nome": "Passion fruit",
       "valor": 70.00,
       "imagem": "/img/img flores/Maracujá.png",
-      "descricao": "Trazendo a Paixão de Cristo em memótia , por isso chamada flor de Maracujá.",
-      "categoria": "Catálogo Tropical"
+      "descricao": "Bringing the Passion of Christ in memory, therefore called Passion Flower.",
+      "categoria": "Tropical Catalog"
     },
     {
       "id": 24,
-      "nome": "Estrela-cadente",
+      "nome": "Shooting star",
       "valor": 45.00,
       "imagem": "/img/img flores/Estrela-cadente.png",
-      "descricao": "Está associado à fé, tranquilidade e harmonia, é como um lembrete para buscar um equilíbrio saudável em todos os aspectos da vida.",
-      "categoria": "Catálogo Tropical"
+      "descricao": "It is associated with faith, tranquility and harmony, it is like a reminder to seek a healthy balance in all aspects of life.",
+      "categoria": "Tropical Catalog"
     },
     {
       "id": 25,
-      "nome": "Buquê vermelho",
+      "nome": "Red Bouquet",
       "valor": 100.00,
       "imagem": "/img/img flores/Buquê vermelho.png",
-      "descricao": "Cada pétala vermelha resplandece com energia e vitalidade, simbolizando a chama da paixão que arde no coração.",
-      "categoria": "Buquês"
+      "descricao": "Each red petal glows with energy and vitality, symbolizing the flame of passion that burns in the heart.",
+      "categoria": "bouquets"
     },
     {
       "id": 26,
-      "nome": "Buquê Amarela",
+      "nome": "Yellow Bouquet",
       "valor": 125.00,
       "imagem": "/img/img flores/Buquê Amarela.png",
-      "descricao": "Um buquê amarela trás a luz, calor, otimismo e alegria para o lar, simbolizado pelo sol e o verão, trás prosperiadade e feliciadade.",
-      "categoria": "Buquês"
+      "descricao": "A yellow bouquet brings light, warmth, optimism and joy to the home, symbolized by the sun and summer, it brings prosperity and happiness.",
+      "categoria": "bouquets"
     },
     {
       "id": 27,
-      "nome": "Buquê Orquídeas",
+      "nome": "Bouquet orchids",
       "valor": 120.00,
       "imagem": "/img/img flores/Buquê Orquídeas.png",
-      "descricao": "Um buquê de orquídeas são consideradas flores de beleza incomparável, com suas formas exóticas e cores vibrantes, símbolo de admiração pela beleza e graça de alguém.",
-      "categoria": "Buquês"
+      "descricao": "A bouquet of orchids are considered flowers of incomparable beauty, with their exotic shapes and vibrant colors, a symbol of admiration for someone's beauty and grace.",
+      "categoria": "bouquets"
     },
     {
       "id": 28,
-      "nome": "Buquê Girasol",
+      "nome": "Sunflower bouquet",
       "valor": 130.00,
       "imagem": "/img/img flores/Buquê Girasol.png",
-      "descricao": "Um buquê de girassóis pode transmitir sentimentos de alegria e celebrar momentos felizes, também simbolizam amizade e apreço.",
-      "categoria": "Buquês"
+      "descricao": "A bouquet of sunflowers can convey feelings of joy and celebrate happy moments, they also symbolize friendship and appreciation.",
+      "categoria": "bouquets"
     },
     {
       "id": 29,
-      "nome": "Buquê Mix",
+      "nome": "Bouquet Mix",
       "valor": 150.00,
       "imagem": "/img/img flores/Buquê Mix.png",
-      "descricao": "O buquê Mix é frequentemente associado ao amor romântico, Cada rosa pode representar um gesto de amor e carinho, expressando sentimentos profundos e apaixonados.",
-      "categoria": "Buquês"
+      "descricao": "The Mix bouquet is often associated with romantic love, Each rose can represent a gesture of love and affection, expressing deep and passionate feelings.",
+      "categoria": "bouquets"
     },
     {
       "id": 30,
-      "nome": "Buquê Lirio",
+      "nome": "Lily bouquet",
       "valor": 130.00,
       "imagem": "/img/img flores/Buquê Lirio.png",
-      "descricao": "Um buquê de lírios pode ser oferecido como um presente para elogiar a beleza de alguém ou como um gesto de apreciação pela graça e sofisticação de uma pessoa.",
-      "categoria": "Buquês"
+      "descricao": "A bouquet of lilies can be given as a gift to compliment someone's beauty or as a gesture of appreciation for a person's grace and sophistication.",
+      "categoria": "bouquets"
     },
     {
       "id": 31,
@@ -249,22 +249,22 @@
       "valor": 155.00,
       "imagem": "/img/img flores/Buquê Tropical.png",
       "descricao": "Associadas a um senso de vitalidade e energia. Elas podem representar a vitalidade da natureza tropical e transmitir um sentimento de vigor, entusiasmo e força.",
-      "categoria": "Buquês"
+      "categoria": "bouquets"
     },
     {
       "id": 32,
-      "nome": "Buquê Paraiso",
+      "nome": "Paradise bouquet",
       "valor": 160.00,
       "imagem": "/img/img flores/Buquê Paraiso.png",
-      "descricao": "Um buquê paraíso pode simbolizar a singularidade de uma pessoa ou uma ocasião especial, representar algo raro e especial, destacando-se entre os demais.",
-      "categoria": "Buquês"
+      "descricao": "A paradise bouquet can symbolize a person's uniqueness or a special occasion, represent something rare and special, standing out among the rest.",
+      "categoria": "bouquets"
     },
     {
       "id": 33,
       "nome": "Tropical Box",
       "valor": 250.00,
       "imagem": "/img/img flores/Tropical Box.png",
-      "descricao": "Nossa versão tropical box, com um mix de flores tropicais de diferentes estilos, para deixar o ambiente em harmonia com a natureza.",
+      "descricao": "Our tropical box version, with a mix of tropical flowers of different styles, to make the environment in harmony with nature.",
       "categoria": "Box"
     },
     {
@@ -272,7 +272,7 @@
       "nome": "Kraft Box",
       "valor": 220.00,
       "imagem": "/img/img flores/Kraft Box.png",
-      "descricao": "Nossa versão cool para presentear com flores de Flores em caixa de papel kraft com acabamento em papel seda.",
+      "descricao": "Our cool version for gifting flowers of Flowers in a kraft paper box with tissue paper finishing.",
       "categoria": "Box"
     },
     {
@@ -280,7 +280,7 @@
       "nome": "Hat Box",
       "valor": 100.00,
       "imagem": "/img/img flores/Hat Box.png",
-      "descricao": "Arranjo de flores em caixa redonda de papel acartonado com acabamento em papel seda e alça de cetim.",
+      "descricao": "Flower arrangement in a round cardboard box with tissue paper finish and satin handle.",
       "categoria": "Box"
     },
     {
@@ -288,7 +288,7 @@
       "nome": "Sweet Box",
       "valor": 240.00,
       "imagem": "/img/img flores/Sweet Box.png",
-      "descricao": "Arranjo de flores que combina delicadeza e elegância. É composto por uma variedade de flores em tons suaves e românticos",
+      "descricao": "Flower arrangement that combines delicacy and elegance. It is composed of a variety of flowers in soft and romantic tones.",
       "categoria": "Box"
     }
   ]
