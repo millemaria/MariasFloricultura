@@ -20,12 +20,12 @@ const promocao = (listaProdutos) => {
                 <img src="..${produto.imagem}" alt="${produto.nome}">
             </div>
             <div class="infoPromocao">
-                <a href="assets/html/itemPage.html?id=${produto.id}">
+                <a href="assets/html/itempage-Inglês.html?id=${produto.id}">
                     <h4 class="nomeProduto">${produto.nome}</h4>
                 </a>
                 <p>${produto.descricao}</p>
-                <span class="valorAntigo">De: R$ ${produto.valor.toFixed(2).replace('.', ',')}</span>
-                <span class="valorAtual">Por: R$ ${produto.valorPromocional.toFixed(2).replace('.', ',')}</span>
+                <span class="valorAntigo">De: BRL ${produto.valor.toFixed(2).replace('.', ',')}</span>
+                <span class="valorAtual">Por: BRL ${produto.valorPromocional.toFixed(2).replace('.', ',')}</span>
                 <span class="spanButton">
                     <i class="fa-solid fa-heart desejo"></i>
                     <i class="fa-solid fa-basket-shopping carrinho"></i>
@@ -50,7 +50,7 @@ const anuncio = (listaProdutos) => {
                     <img src="..${produto.imagem}" alt="${produto.nome}">
                 </div>
                 <div class="info-anuncio">
-                    <a href="assets/html/itemPage.html?id=${produto.id}">
+                    <a href="assets/html/itempage-Inglês.html?id=${produto.id}">
                         <h4 class="title-anuncio">${produto.nome}</h4>
                     </a>
                     <p class="descricao-anuncio">
@@ -58,7 +58,7 @@ const anuncio = (listaProdutos) => {
                     </p>
 
                     <div class="info-anuncio2">
-                        <p>R$ ${produto.valor.toFixed(2).replace('.', ',')}</p>
+                        <p>BRL ${produto.valor.toFixed(2).replace('.', ',')}</p>
                         <div class="qtd">
                             <button>+</button>
                             <span>1</span>
@@ -86,11 +86,11 @@ const cesta = (listaProdutos) => {
                 <img src="..${produto.imagem}" alt="${produto.nome}">
             </div>
             <div class="info-cesta">
-                <a href="assets/html/itemPage.html?id=${produto.id}">
+                <a href="assets/html/itempage-Inglês.html?id=${produto.id}">
                 <h4>${produto.nome}</h4>
                 </a>
                 <p>${produto.descricao}</p>
-                <span id="valor-produto-cesta">R$ ${produto.valor.toFixed(2).replace('.', ',')}</span>
+                <span id="valor-produto-cesta">BRL ${produto.valor.toFixed(2).replace('.', ',')}</span>
                 <div class="info-cesta2">
                     <div class="qtd">
                         <button>+</button>
@@ -118,11 +118,11 @@ const tropical = (listaProdutos) => {
                 <img src="..${produto.imagem}" alt="${produto.nome}">
             </div>
             <div class="info-tropical">
-                <a href="assets/html/itemPage.html?id=${produto.id}">
+                <a href="assets/html/itempage-Inglês.html?id=${produto.id}">
                     <h4>${produto.nome}</h4>
                 </a>
                 <p>${produto.descricao}</p>
-                <span class="valor-tropical">R$ ${produto.valor.toFixed(2).replace('.', ',')}</span>
+                <span class="valor-tropical">BRL ${produto.valor.toFixed(2).replace('.', ',')}</span>
                 <span class="btn-span">
                     <i class="fa-solid fa-heart desejo"></i>
                     <i class="fa-solid fa-basket-shopping carrinho"></i>
@@ -152,11 +152,11 @@ const tropicalMetade = (listaProdutos) => {
                     <img src="..${produto.imagem}" alt="${produto.nome}">
                 </div>
                 <div class="info-tropical">
-                    <a href="assets/html/itemPage.html?id=${produto.id}">
+                    <a href="assets/html/itempage-Inglês.html?id=${produto.id}">
                         <h4>${produto.nome}</h4>
                     </a>
                     <p>${produto.descricao}</p>
-                    <span class="valor-tropical">R$ ${produto.valor.toFixed(2).replace('.', ',')}</span>
+                    <span class="valor-tropical">BRL ${produto.valor.toFixed(2).replace('.', ',')}</span>
                     <span class="btn-span">
                         <i class="fa-solid fa-heart desejo"></i>
                         <i class="fa-solid fa-basket-shopping carrinho"></i>
@@ -177,7 +177,6 @@ const tropicalMetade = (listaProdutos) => {
     `
 
     tropicalArea.innerHTML += botao
-    console.log(item)
 }
 
 const tropicalOutraMetade = (listaProdutos) => {
@@ -194,11 +193,11 @@ const tropicalOutraMetade = (listaProdutos) => {
                     <img src="..${produto.imagem}" alt="${produto.nome}">
                 </div>
                 <div class="info-tropical">
-                    <a href="assets/html/itemPage.html?id=${produto.id}">
+                    <a href="assets/html/itempage-Inglês.html?id=${produto.id}">
                         <h4>${produto.nome}</h4>
                     </a>
                     <p>${produto.descricao}</p>
-                    <span class="valor-tropical">R$ ${produto.valor.toFixed(2).replace('.', ',')}</span>
+                    <span class="valor-tropical">BRL ${produto.valor.toFixed(2).replace('.', ',')}</span>
                     <span class="btn-span">
                         <i class="fa-solid fa-heart desejo"></i>
                         <i class="fa-solid fa-basket-shopping carrinho"></i>
@@ -242,7 +241,7 @@ const adicionarAoCarrinho = () => {
 
 (async () => {
 
-    const flores = await flowersAPIingles()
+    const flores = await flowersAPIIngles()
     setTimeout(() => {
         promocao(flores)
         anuncio(flores)

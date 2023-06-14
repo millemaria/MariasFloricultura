@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/dab0ae2ff9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/header2.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/modoDark.css">
+    <link rel="stylesheet" href="../css/carrinho.css">
+    <link rel="stylesheet" href="assets/css/responsivo.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <div class="header-top">
+
+                <div class="logo-img">
+
+                    <a href="../../index.html">
+                        <img src="../img/logoMarca.svg" alt="Logo Marca">
+                    </a>
+
+                </div>
+
+                <div class="content-header">
+
+                    <div class="acessibilidade">
+
+                        <img src="../img/icon/bandeiraBrasil.svg" class="tradutor" alt="">
+                        <img src="../img/icon/bandeiraEUA.svg" class="tradutor" alt="">
+
+                        <div class="acessibilidade-visual">
+
+                            <button id="aumentarFonte">A+</button>
+                            <button id="diminuirFonte">A-</button>
+
+                        </div>
+
+                    </div>
+
+                    <div id="modo-dark" class="modo-light">
+                        <div class="light" id="darkLight">
+                            <i class="fa-solid fa-sun" id="modo-img" alt=""></i>
+                        </div>
+                    </div>
+
+                    <div class="login">
+                        <a href="../html/login.html">
+                            <i class="fa-solid fa-user" id="iconLogin"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="mockado"></div>
+
+            <div class="nav">
+
+                <ul>
+
+                    <li class="nav-header">
+                        <a href="../../index.html#promocao">
+                            Promoções
+                        </a>
+                    </li>
+
+                    <li class="nav-header">
+                        <a href="../../index.html#cestas">
+                            Cestas
+                        </a>
+                    </li>
+
+                    <li class="nav-header">
+                        <a href="../../index.html#catalogoTropical">
+                            Catálogo
+                        </a>
+                    </li>
+
+                    <li class="nav-header">
+                        <a href="./index2.html#buques">
+                            Buquês
+                        </a>
+                    </li>
+                    <li class="nav-header">
+                        <a href="./index2.html#box">
+                            Box's
+                        </a>
+                    </li>
+                    <li class="nav-header">
+                        <div>
+                            <ul>
+
+                                <li>
+                                    <a href="">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="index-inglês.html">
+                                        <i class="fa-solid fa-basket-shopping"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="../html/ListadeDesejos.html">
+                                        <i class="fa-solid fa-heart"></i>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </header>
+
+        <main>
+
+            <h1>Cesta de Compras</h1>
+
+            <div class="cestaCompras">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Produto</th>
+                            <th>Preço</th>
+                            <th>Quantidade</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+
+                            <td class="imagem">
+                                <img src="../img/img flores/buque-da-lista2.png" alt="">
+                                <h4>Buquê da lista2</h4>
+                            </td>
+                            <td class="valor">R$ 779,00</td>
+                            <td>
+                                <div class="qtd">
+                                    <button>+</button>
+                                    <span>1</span>
+                                    <button>-</button>
+                                </div>
+                                <p>Remover</p>
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td class="imagem">
+                                <img src="../img/img flores/Buquê Girasol.png" alt="">
+                                <h4>Buquê de Girassol</h4>
+                            </td>
+                            <td class="valor">R$ 100,00</td>
+                            <td>
+                                <div class="qtd">
+                                    <button>+</button>
+                                    <span>1</span>
+                                    <button>-</button>
+                                </div>
+                                <p>Remover</p>
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td class="imagem">
+                                <img src="../img/img flores/CestadePresenteLuxo.png" alt="">
+                                <h4>Cesta de Presente Luxo</h4>
+                            </td>
+                            <td class="valor">R$ 250,00</td>
+                            <td>
+                                <div class="qtd">
+                                    <button>+</button>
+                                    <span>1</span>
+                                    <button>-</button>
+                                </div>
+                                <p>Remover</p>
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <div class="compra">
+                <h1>Finalizar Compra</h1>
+
+                <div class="area-valor">
+
+                    <label>
+                        <input type="text" disabled placeholder="Subtotal">
+                        <input type="text" disabled placeholder="R$ 150,00">
+                    </label>
+                    <label>
+                        <input type="text" disabled placeholder="Cupom">
+                        <input type="text" disabled placeholder="R$ 50,00">
+                    </label>
+                    <label>
+                        <input type="text" disabled placeholder="Total">
+                        <input type="text" disabled placeholder="R$ 100,00">
+                    </label>
+                    <span>ou em até 3x sem juros</span>
+
+                </div>
+
+            </div>
+
+            <div class="buttons">
+
+                <button id="adicionarProdutos">
+                    <a href="./index2.html">Adicionar Produtos</a>
+                </button>
+                <button id="finalizarCompra">Concluído</button>
+                
+            </div>
+
+            <div class="dados hide">
+
+            </div>
+
+
+        </main>
+
+    </div>
+
+    <script src="../js/compra.js"></script>
+
+</body>
+
+</html>

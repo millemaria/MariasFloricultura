@@ -22,11 +22,11 @@ const tropicalOutraMetade = (listaProdutos) => {
                     <img src="../${produto.imagem}" alt="${produto.nome}">
                 </div>
                 <div class="info-tropical">
-                    <a href="./itemPage.html?id=${produto.id}">
+                    <a href="./itempage-Inglês.html?id=${produto.id}">
                         <h4>${produto.nome}</h4>
                     </a>
                     <p>${produto.descricao}</p>
-                    <span class="valor-tropical">R$ ${produto.valor.toFixed(2).replace('.', ',')}</span>
+                    <span class="valor-tropical">BRL ${produto.valor.toFixed(2).replace('.', ',')}</span>
                     <span class="btn-span">
                         <i class="fa-solid fa-heart desejo"></i>
                         <i class="fa-solid fa-basket-shopping carrinho"></i>
@@ -42,7 +42,7 @@ const tropicalOutraMetade = (listaProdutos) => {
 }
 
 const buque = (listaProdutos) => {
-    const secaoBuque = filtro(listaProdutos, 'Buquês')
+    const secaoBuque = filtro(listaProdutos, 'bouquets')
 
     const itemBuque = secaoBuque.map((produto) => {
         return `
@@ -51,11 +51,11 @@ const buque = (listaProdutos) => {
                 <img src="../${produto.imagem}" alt="${produto.nome}">
             </div>
             <div class="info-buque">
-                <a href="./itemPage.html?id=${produto.id}">
+                <a href="./itempage-Inglês.html?id=${produto.id}">
                     <h4>${produto.nome}</h4>
                 </a>
                 <p>${produto.descricao}</p>
-                <span class="valor-buque">R$ ${produto.valor.toFixed(2).replace('.', ',')}</span>
+                <span class="valor-buque">BRL ${produto.valor.toFixed(2).replace('.', ',')}</span>
                 <span class="btn-span">
                     <i class="fa-solid fa-heart desejo"></i>
                     <i class="fa-solid fa-basket-shopping carrinho"></i>
@@ -78,11 +78,11 @@ const box = (listaProdutos) => {
                 <img src="../${produto.imagem}" alt="${produto.nome}">
             </div>
             <div class="info-box">
-                <a href="./itemPage.html?id=${produto.id}">
+                <a href="./itempage-Inglês.html?id=${produto.id}">
                     <h4>${produto.nome}</h4>
                 </a>
                 <p>${produto.descricao}</p>
-                <span class="valor-box">R$ ${produto.valor.toFixed(2).replace('.', ',')}</span>
+                <span class="valor-box">BRL ${produto.valor.toFixed(2).replace('.', ',')}</span>
                 <span class="btn-span">
                     <i class="fa-solid fa-heart desejo"></i>
                     <i class="fa-solid fa-basket-shopping carrinho"></i>
@@ -116,7 +116,7 @@ const adicionarAoCarrinho = () => {
 
 (async () => {
 
-    const flores = await flowersAPIingles()
+    const flores = await flowersAPIIngles()
     setTimeout(() => {
         tropicalOutraMetade(flores)
         buque(flores)

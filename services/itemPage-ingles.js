@@ -14,13 +14,13 @@ const getItem = (listaProduto, id) => {
     imagem.src = `../${item[0].imagem}`
     imagem.alt = `${item[0].nome}`
     produto.innerHTML = `${item[0].nome}`
-    valor.innerHTML = `R$ ${item[0].valor.toFixed(2).replace('.', ',')}`
+    valor.innerHTML = `BRL ${item[0].valor.toFixed(2).replace('.', ',')}`
 
 }
 
 (async () => {
 
-    const flores = await flowersAPIingles()
+    const flores = await flowersAPIIngles()
     setTimeout(() => {
         getItem(flores, getNumberURL())
     }, 1000)
