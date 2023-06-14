@@ -251,4 +251,36 @@
         width: 591px;
     }
 
+    .tropical, .tropical2, .box, .buques {
+        /* margin: 0 45px; */
+        /* padding: 26px; */
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 50px;
+        background-color: rgba(107, 170, 215, .5);
+        border-radius: 4px;
+        position: relative;
+    }
+
+    .anuncio {
+        margin-top: 103px;
+        margin-left: 45px;
+        height: 344px;
+    }
+
+    .img-anuncio {
+        width: 611px;
+        margin: auto;
+    }
+
+    .img-anuncio img {
+        width: 100%;
+    }
+
+    .info-anuncio2 {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
 }
