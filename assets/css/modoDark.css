@@ -87,6 +87,10 @@
     color: #FFFFFF;
 }
 
+.bodyDark .info-anuncio2  .qtd button, .bodyDark .info-anuncio2  .qtd span{
+    color: #000000;
+}
+
 .bodyDark .item-cesta {
     background: #D87500;
 }
