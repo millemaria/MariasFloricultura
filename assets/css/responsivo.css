@@ -245,8 +245,13 @@
 
 }
 
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1628px){
     
+    .cesta{
+
+        justify-content: center;
+    }
+
     .item-cesta {
         width: 591px;
     }
