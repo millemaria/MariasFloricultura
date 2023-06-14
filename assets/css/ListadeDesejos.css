@@ -50,3 +50,14 @@
     padding-right: 25px;
     border-radius: 20px;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+
+    background: #14426E;
+    color: #C48007;
+    margin-top: 20px;
+}

@@ -292,7 +292,8 @@ main h1 {
 }
 
 
-.tropical, .tropical2 {
+.tropical,
+.tropical2 {
     margin: 0 45px;
     padding: 26px;
 
@@ -386,4 +387,15 @@ main h1 {
 
 .carrinho {
     cursor: pointer;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+
+    background: #14426E;
+    color: #C48007;
+    margin-top: 20px;
 }

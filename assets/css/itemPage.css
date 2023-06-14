@@ -209,3 +209,14 @@ label {
     color: #B97D09;
 
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+
+    background: #14426E;
+    color: #C48007;
+    margin-top: 20px;
+}

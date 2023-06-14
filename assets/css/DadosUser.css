@@ -198,3 +198,14 @@ color: #1c1c1c;
 margin-bottom: 20px;
 margin-left: 10px;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+
+    background: #14426E;
+    color: #C48007;
+    margin-top: 20px;
+}
