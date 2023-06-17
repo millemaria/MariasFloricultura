@@ -240,67 +240,118 @@
             </div>
 
             <div class="dados hide">
+                <form action="">
 
-                <label>
-                    Nome
-                    <input type="text">
+                    <label id="nome">
+                        <p>Nome</p>
+                        <input type="text" placeholder="Ex: Luiz Messias Lula da Silva">
+                    </label>
+                    
+                    <label id="telefone">
+                        <p>Telefone</p>
+                    <input type="text" placeholder="(81) 94002-8922">
                 </label>
 
-                <label>
-                    Telefone
-                    <input type="text">
+                <label id="endereco">
+                    <p>Endereço</p>
+                    <input type="text" placeholder="Rua do alagamento">
                 </label>
-
-                <label>
-                    Endereço
-                    <input type="text">
+                
+                <label id="numeroCasa">
+                    <p>Nº</p>
+                    <input type="text" placeholder="2004">
                 </label>
-
-                <label>
-                    Número
-                    <input type="text">
+                
+                <label id="complemento">
+                    <p>Complemento</p>
+                    <input type="text" placeholder="B">
                 </label>
-
-                <label>
-                    Complemento
-                    <input type="text">
+                
+                <label id="bairro">
+                    <p>Bairro</p>
+                    <input type="text" placeholder="Imbura">
                 </label>
-
-                <label>
-                    Bairro
-                    <input type="text">
+                
+                <label id="cidade">
+                    <p>Cidade</p>
+                    <input type="text" placeholder="Hellcife">
                 </label>
-
-                <label>
-                    Cidade
-                    <input type="text">
+                
+                <label id="estado">
+                    <p>Estado</p>
+                    <input type="text" placeholder="PE">
                 </label>
-
-                <label>
-                    Estado
-                    <input type="text">
+                
+                <label id="cep">
+                    <p>CEP</p>
+                    <input type="text" placeholder="50000-000">
                 </label>
-
-                <label>
-                    CEP
-                    <input type="text">
+                
+                <label id="email">
+                    <p>Email</p>
+                    <input type="text" placeholder="example@org.br">
                 </label>
-
-                <label>
-                    Email
-                    <input type="text">
+                
+                <label id="formaPagamento">
+                    <p>Forma de Pagamento</p>
+                    <select name="" id="formaDePagamento">
+                        <option value="0">Selecione</option>
+                        <option value="1">Dinheiro</option>
+                        <option value="2">Cartão</option>
+                        <option value="3">Pix</option>
+                        <option value="4">Boleto</option>
+                    </select>
                 </label>
-
-                <select name="" id="">
-                    <option value="0">Selecione</option>
-                    <option value="1">Dinheiro</option>
-                    <option value="2">Cartão</option>
-                    <option value="3">Pix</option>
-                    <option value="4">Boleto</option>
-                </select>
-
+                
+                <button id="cadastroDados" type="button">Concluir</button>
+                
+            </form>
             </div>
 
+
+            <div class="cadastroCartao hide">
+
+                <p class="title">Selecione o tipo do cartão</p>
+
+                <form>
+                
+                    <label id="tipoCartao">
+                        <input type="radio" name="opcao" id="tipo" value="1">
+                        <i class="fa-solid fa-credit-card"></i>
+                        Crédito
+                    </label>
+                
+                    <label id="tipoCartao">
+                        <input type="radio" name="opcao" id="tipo" value="1">
+                        <i class="fa-solid fa-credit-card"></i>
+                        Débito
+                    </label>
+
+                    <label id="numeroDoCartao">
+                        <p>Número do Cartão</p>
+                        <input type="text">
+                    </label>
+
+                    <label id="cvv">
+                        <p>CVV</p>
+                        <input type="text">
+                    </label>
+
+                    <label id="validade">
+                        <p>Data de Validade</p>
+                        <input type="datetime" name="" id="">
+                    </label>
+
+                    <label id="apelido">
+                        <p>Apelido do cartão</p>
+                        <input type="text" name="" id="">
+                    </label>
+
+                    <button type="button" id="adicionarCartao">Finalizar</button>
+
+                </form>
+                    
+            </div>
 
         </main>
 
@@ -311,8 +362,7 @@
 
     </div>
 
-    <script src="../js/compra.js"></script>
-
+    <script src="../js/formaPagamento.js"></script>
 </body>
 
 </html>
