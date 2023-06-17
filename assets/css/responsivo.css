@@ -2,6 +2,7 @@
 
     .container {
         /* border: 1px solid; */
+        width: 100%;
     }
 
     .content-header {
@@ -87,7 +88,7 @@
         font-size: 10px;
         width: 100%;
     }
-    
+
     .item-promocao .infoPromocao {
         width: 100%;
         padding: 0;
@@ -122,9 +123,99 @@
         bottom: 0;
     }
 
+    /* Area Anuncio */
+
+    .anuncio {
+        width: 100%;
+        flex-direction: row;
+        height: auto;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    .img-anuncio img {
+        width: 173px;
+        height: 147px;
+        border-radius: 8px;
+        margin-right: 10px;
+    }
+
+    .item-anuncio {
+        margin: 0;
+    }
+
+    .item-anuncio .title-anuncio {
+        font-size: 13px;
+    }
+
+    .item-anuncio .descricao-anuncio {
+        font-size: 11px;
+        width: 206px;
+        line-height: normal;
+    }
+
+    .info-anuncio {
+        gap: 10px;
+    }
+
+    .info-anuncio2 {
+        gap: 5px;
+    }
+
+    .info-anuncio2 p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        text-align: center;
+        color: #000000;
+        line-height: normal;
+    }
+
+    .info-anuncio2 .qtd {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 27px;
+        width: 76px;
+        background-color: #D9D9D9;
+        font-size: 27px;
+        border: 1px solid #CDC5C5;
+    }
+
+    .info-anuncio2 .qtd span {
+        font-size: 14px;
+    }
+
+    .info-anuncio2 .qtd button {
+        font-size: 10px;
+    }
+
+    .info-anuncio2 #btn-anuncio-compra {
+        width: 90px;
+        height: 29px;
+        border-radius: 20px;
+        background-color: #2C1B07;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .info-anuncio2 i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 52px;
+        height: 29px;
+        border-radius: 20px;
+        background-color: #2C1B07;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
 }
 
-@media screen and (max-width: 1628px) {
+/* @media screen and (max-width: 1628px) {
 
     .cesta {
 
@@ -139,8 +230,6 @@
     .tropical2,
     .box,
     .buques {
-        /* margin: 0 45px; */
-        /* padding: 26px; */
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 50px;
@@ -167,7 +256,6 @@
     .info-anuncio2 {
         display: flex;
         align-items: center;
-        gap: 30px;
     }
 
-}
+} */
