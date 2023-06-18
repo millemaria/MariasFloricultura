@@ -1,5 +1,9 @@
 @media screen and (max-width: 600px) {
 
+    main {
+        padding: 0;
+    }
+
     .container {
         /* border: 1px solid; */
         width: 100%;
@@ -126,22 +130,27 @@
     /* Area Anuncio */
 
     .anuncio {
-        width: 100%;
-        flex-direction: row;
+        width: 100vw;
         height: auto;
-        margin-top: 50px;
-        margin-left: 0px;
+        margin: 50px auto 0;
+    }
+
+    .img-anuncio {
+        margin: 0 auto;
+        text-align: center;
+        display: block;
     }
 
     .img-anuncio img {
-        width: 173px;
-        height: 147px;
+        width: 350px;
+        height: 270px;
         border-radius: 8px;
-        margin-right: 10px;
+        margin: 0 auto;
     }
 
     .item-anuncio {
         margin: 0;
+        display: block;
     }
 
     .item-anuncio .title-anuncio {
@@ -211,6 +220,18 @@
         color: white;
         font-size: 20px;
         cursor: pointer;
+    }
+
+    .cesta {
+        width: 100vw;
+        border: 1px solid;
+        margin: 0;
+        justify-content: center;
+    }
+    
+    .item-cesta {
+        width: 100%;
+        margin: 0;
     }
 
 }
