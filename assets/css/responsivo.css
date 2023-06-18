@@ -81,7 +81,7 @@
     .item-promocao {
         width: 154px;
         height: 161px;
-        margin: 0 40px 0 0;
+        margin: 0 70px 0 0;
         gap: 0;
         padding: 0;
     }
@@ -299,6 +299,131 @@
         transform: translateX(-50%);
         cursor: pointer;
     }
+
+    /* Área Tropical 2*/
+
+    .tropical2 {
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+        place-items: center;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    /* Área Buquês */
+
+    .buques {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+        place-items: center;
+    }
+
+    .item-buque {
+        width: 154px;
+        height: 170px;
+        margin-bottom: 50px;
+    }
+
+    .img-buque {
+        width: 100%;
+    }
+
+    .img-buque img {
+        height: 97px;
+        width: 100%;
+    }
+
+    .info-buque {
+        gap: 0;
+    }
+
+    .info-buque h4 {
+        font-size: 13px;
+    }
+
+    .info-buque p {
+        text-align: center;
+        font-size: 7px;
+    }
+
+    .info-buque .valor-buque {
+        width: 100%;
+        padding: 0 0 0 10px;
+        font-size: 14px;
+        color: #fff;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+
+    .info-buque .btn-span {
+        color: #fff;
+        font-size: 14px;
+        position: absolute;
+        width: auto;
+        right: 10px;
+        bottom: 0px;
+    }
+
+    /* Área Box */
+
+    .box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+        place-items: center;
+    }
+
+    .item-box {
+        width: 154px;
+        height: 170px;
+        margin-bottom: 50px;
+    }
+
+    .img-box {
+        width: 100%;
+    }
+
+    .img-box img {
+        height: 97px;
+        width: 100%;
+    }
+
+    .info-box {
+        gap: 0;
+    }
+
+    .info-box h4 {
+        font-size: 13px;
+    }
+
+    .info-box p {
+        text-align: center;
+        font-size: 7px;
+    }
+
+    .info-box .valor-box {
+        width: 100%;
+        padding: 0 0 0 10px;
+        font-size: 14px;
+        color: #fff;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+
+    .info-box .btn-span {
+        color: #fff;
+        font-size: 14px;
+        position: absolute;
+        width: auto;
+        right: 10px;
+        bottom: 0px;
+    }
+
 
 }
 
