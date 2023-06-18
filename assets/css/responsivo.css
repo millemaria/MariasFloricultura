@@ -58,6 +58,8 @@
         width: 100%;
     }
 
+    /* Área Promoção */
+
     .promocao {
         max-width: 382px;
         height: 231px;
@@ -222,16 +224,80 @@
         cursor: pointer;
     }
 
+    /* Área Cesta */
+
     .cesta {
         width: 100vw;
         border: 1px solid;
         margin: 0;
         justify-content: center;
     }
-    
+
     .item-cesta {
         width: 100%;
         margin: 0;
+    }
+
+    /* Área Tropical */
+
+    .tropical {
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+        place-items: center;
+    }
+
+    .item-tropical {
+        width: 154px;
+        height: 161px;
+        margin-bottom: 50px;
+    }
+
+    .img-tropical {
+        width: 100%;
+    }
+
+    .img-tropical img {
+        height: 97px;
+        width: 100%;
+    }
+
+    .info-tropical {
+        gap: 0;
+    }
+
+    .info-tropical h4 {
+        font-size: 13px;
+    }
+
+    .info-tropical p {
+        text-align: center;
+        font-size: 7px;
+    }
+
+    .info-tropical .valor-tropical {
+        width: 100%;
+        padding: 0 0 0 10px;
+        font-size: 14px;
+        color: #fff;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+
+    .info-tropical .btn-span {
+        color: #fff;
+        font-size: 14px;
+        position: absolute;
+        width: auto;
+        right: 10px;
+        bottom: 0px;
+    }
+
+    #saiba-mais {
+
+        left: 50%;
+        transform: translateX(-50%);
+        cursor: pointer;
     }
 
 }
