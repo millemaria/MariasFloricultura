@@ -2,10 +2,51 @@
 
     main {
         padding: 0;
+        overflow: hidden;
+    }
+
+    .nav-mobile {
+        display: block;
+        margin-left: 20px;
+    }
+
+    .nav-mobile .fa-bars {
+        font-size: 24px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .nav-mobile-content ul {
+        list-style: none;
+    }
+
+    .nav-mobile-content {
+        position: absolute;
+        background-color: #14426E;
+        width: 113px;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .nav-mobile-content ul li {
+        padding: 10px;
+        color: white;
+        border-bottom: 1px solid;
+    }
+
+    .nav-mobile-content ul li:last-child {
+        border: none;
+    }
+
+    .nav-mobile-content ul li span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        font-size: 20px;
     }
 
     .container {
-        /* border: 1px solid; */
         width: 100%;
     }
 
@@ -228,7 +269,6 @@
 
     .cesta {
         width: 100vw;
-        border: 1px solid;
         margin: 0;
         justify-content: center;
     }
@@ -427,13 +467,47 @@
         bottom: 0px;
     }
 
+    footer {
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* Lista de Desejos */
+
+
+    #Lista-Desejos {
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        gap: 0 50px;
+    }
+
+    .item-lista {
+        position: relative;
+    }
+
+    .item-lista p{
+        left: 10px;        
+    }
+
+    .item-lista button {
+        right: 10px;
+        left: auto;
+    }
+
+    .img-lista {
+        width: 200px;
+        height: 170px;
+    }
+
+    .item-lista img {
+        width: 100%;
+    }
 
 }
 
-/* @media screen and (max-width: 1628px) {
+@media screen and (min-width: 1150px) {
 
     .cesta {
-
         justify-content: center;
     }
 
@@ -473,4 +547,4 @@
         align-items: center;
     }
 
-} */
+}

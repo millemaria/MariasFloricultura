@@ -58,6 +58,11 @@
   gap: 20px;
 }
 
+#mockado {
+  height: 51px;
+}
+
+
 .acessibilidade img {
   cursor: pointer;
   width: 50px;
@@ -122,6 +127,10 @@
 a[href=""], a[href="#"] {
   opacity: .4;
   color: red;
+}
+
+.hide {
+  display: none;
 }
 
 footer {

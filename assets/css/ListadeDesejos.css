@@ -41,7 +41,6 @@
 .botão-comprar{
     position: absolute;
     bottom: 10px;
-    left: 330px;
     font-size: 20px;
     color: #2C1B07;
     background-color: #fff;
@@ -49,6 +48,7 @@
     padding-left: 25px;
     padding-right: 25px;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 footer {

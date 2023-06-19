@@ -3,4 +3,5 @@
 (() => {
     modoDark()
     acessibilidadeVisual()
+    menuM()
 })()

@@ -126,6 +126,10 @@ a[href=""], a[href="#"] {
   cursor: pointer;
 } 
 
+.hide {
+  display: none;
+}
+
 footer {
   display: flex;
   align-items: center;
