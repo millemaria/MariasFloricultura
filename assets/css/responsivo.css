@@ -1,3 +1,7 @@
+.acessibilidade-mobile {
+    display: none;
+}
+
 @media screen and (max-width: 600px) {
 
     main {
@@ -470,6 +474,23 @@
     footer {
         width: 100%;
         padding: 10px;
+        position: relative;
+    }
+
+    footer p {
+        position: absolute;
+        top: 0;
+    }
+
+    .acessibilidade-mobile {
+        display: block;
+        position: absolute;
+        bottom: 0;
+    }
+
+    footer > img {
+        position: absolute;
+        right: 0;
     }
 
     /* Lista de Desejos */
