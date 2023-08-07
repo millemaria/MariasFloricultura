@@ -1,6 +1,72 @@
 .acessibilidade-mobile {
     display: none;
 }
+/* max-with é usado para quando o elemento for menor que o tamanho pedido */
+
+/* Responsivo mobile */
+@media screen and (max-width: 450px) { 
+
+    /* Home Page */
+
+    main h1 {
+        width: auto;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .chatbot {
+        top: 110px;
+    }
+
+    .chatbot img{
+        width: 70px;
+    }
+
+    /* Home Page - Cestas */
+    /* OBS: ajustar o 350px */
+    .item-cesta {
+        gap: 10px;
+        width: 387px;
+        height: 191px;
+    }
+
+    .img-cesta {
+        height: 100%;
+    }
+
+    .img-cesta img {
+        height: 100%;
+    }
+
+    .info-cesta {
+        width: 140px;
+        gap: 13px;
+    }
+
+    .item-cesta h4{
+        width: 150px;
+        font-size: 10px;
+    }
+
+    .item-cesta p {
+        font-size: 8px;
+    }
+
+    .info-cesta .qtd {
+        height: 30px;
+        width: 60px;
+        background-color: #D9D9D9;
+        font-size: 27px;
+        border: 1px solid #CDC5C5;
+    }
+
+    .tropical, .tropical2, .buques, .box {
+        width: 95%;
+        margin: 0 auto;
+        gap: 10px;
+    }
+
+}
 
 @media screen and (max-width: 600px) {
 
@@ -100,7 +166,7 @@
 
     main h1 {
         text-align: center;
-        width: 100%;
+        /* width: 100%; */
     }
 
     /* Área Promoção */
@@ -286,7 +352,6 @@
 
     .tropical {
         grid-template-columns: 1fr 1fr;
-        gap: 0;
         place-items: center;
     }
 
@@ -349,7 +414,6 @@
 
     .tropical2 {
         grid-template-columns: 1fr 1fr;
-        gap: 0;
         place-items: center;
     }
 
@@ -362,7 +426,6 @@
     .buques {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 0;
         place-items: center;
     }
 
@@ -419,7 +482,6 @@
     .box {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 0;
         place-items: center;
     }
 
@@ -475,6 +537,13 @@
         width: 100%;
         padding: 10px;
         position: relative;
+    }
+
+    .footer-login-mobile {
+        width: 100vw;
+        padding: 10px;
+        position: absolute;
+        bottom: 0;
     }
 
     footer p {
@@ -562,6 +631,8 @@
     } 
 
 }
+
+/* Responsivo notebook+ */
 
 @media screen and (min-width: 1150px) {
 
