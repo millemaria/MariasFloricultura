@@ -57,4 +57,3 @@ Este projeto está licenciado sob a [Licença MIT](LICENSE) - veja o arquivo [LI
 
 ---
 
-Neste README, você pode personalizar as seções com informações específicas sobre o seu projeto de e-commerce de floricultura, incluindo detalhes sobre as funcionalidades, tecnologias utilizadas, instruções para execução local e informações sobre como contribuir.
