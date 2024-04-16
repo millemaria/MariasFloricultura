@@ -1,6 +1,3 @@
-Aqui está um exemplo de README para um e-commerce de floricultura desenvolvido com HTML, CSS e JavaScript:
-
----
 
 # Maria's Floricultura - Projeto de E-Commerce
 
